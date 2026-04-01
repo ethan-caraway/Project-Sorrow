@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: In Memory Of Anyone Unknown To Me
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 21
+  title: In Memory Of Anyone Unknown To Me
+  author: Elizabeth Jennings
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - At this particular time I have no one
+    - Particular person to grieve for, though there must
+    - Be many, many unknown ones going to dust
+    - Slowly, not remembered for what they have done
+    - Or left undone. For these, then, I will grieve
+    - Being impartial, unable to deceive.
+  - lines:
+    - How they lived, or died, is quite unknown,
+    - And, by that fact gives my grief purity,
+    - An important person quite apart from me
+    - Or one obscure who drifted down alone.
+    - Both or all I remember, have a place.
+    - For these I never encountered face to face.
+  - lines:
+    - Sentiment will creep in. I cast it out
+    - Wishing to give these classical repose,
+    - No epitaph, no poppy and no rose
+    - From me, and certainly no wish to learn about
+    - The way they lived or died. In earth or fire
+    - They are gone. Simply because they were human, I admire.
+  rating: 2

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Everything Comes
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 51
+  title: Everything Comes
+  author: Thomas Hardy
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - '"The house is bleak and cold'
+    - ' Built so new for me!'
+    - All the winds upon the wold
+    - ' Search it through for me;'
+    - No screening trees abound,
+    - And the curious eyes around
+    - ' Keep on view for me."'
+  - lines:
+    - '"My Love, I am planting trees'
+    - ' As a screen for you'
+    - Both from winds, and eyes that tease
+    - ' And peer in for you.'
+    - Only wait till they have grown,
+    - No such bower will be known
+    - ' As I mean for you."'
+  - lines:
+    - '"Then I will bear it, Love,'
+    - ' And will wait," she said.'
+    - '- So, with years, there grew a grove.'
+    - ' "Skill how great!" she said.'
+    - '"As you wished, Dear?" - "Yes, I see!'
+    - But - I'm dying; and for me
+    - ' ''Tis too late," she said.'
+  rating: 3

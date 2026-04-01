@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Landscape
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 23
+  title: Landscape
+  author: Charles Baudelaire
+  stanzas:
+  - lines:
+    - "In order to write my chaste verses I\u2019ll lie"
+    - like an astrologer near to the sky
+    - and, by the bell-towers, listen in dream
+    - to their solemn hymns on the air-stream.
+    - "Hands on chin, from my attic\u2019s height"
+    - "I\u2019ll see the workshops of song and light,"
+    - the gutters, the belfries those masts of the city,
+    - the vast skies that yield dreams of eternity
+  - lines:
+    - It is sweet to see stars being born in the blue,
+    - through the mists, the lamps at the windows, too,
+    - the rivers of smoke climbing the firmament,
+    - and the moon pouring out her pale enchantment.
+    - "I\u2019ll see the springs, summers, autumns\u2019 glow,"
+    - and when winter brings the monotonous snow
+    - "I\u2019ll close all my doors and shutters tight"
+    - and build palaces of faery in the night.
+    - "Then I\u2019ll dream of blue-wet horizons,"
+    - weeping fountains of alabaster, gardens,
+    - kisses, birdsong at morning or twilight,
+    - all in the Idyll that is most childlike.
+    - The mob that are beating in vain on the glass,
+    - "won\u2019t make me raise my head as they pass."
+    - "Since I\u2019ll be plunged deep in the thrill"
+    - of evoking the springtime through my own will,
+    - raising the sun out of my own heart,
+    - making sweet air from my burning thought.
+  rating: 3

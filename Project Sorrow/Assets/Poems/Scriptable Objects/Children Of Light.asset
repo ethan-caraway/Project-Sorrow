@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Children Of Light
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 13
+  title: Children Of Light
+  author: Robert Lowell
+  stanzas:
+  - lines:
+    - Our fathers wrung their bread from stocks and stones
+    - And fenced their gardens with the Redmen's bones;
+    - Embarking from the Nether Land of Holland,
+    - Pilgrims unhouseled by Geneva's night,
+    - They planted here the Serpent's seeds of light;
+    - And here the pivoting searchlights probe to shock
+    - The riotous glass houses built on rock,
+    - And candles gutter by an empty altar,
+    - And light is where the landless blood of Cain
+    - Is burning, burning the unburied grain.
+  rating: 1

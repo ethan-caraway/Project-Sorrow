@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Sonnet I
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 91
+  title: Sonnet I
+  author: Alan Seeger
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Sidney, in whom the heyday of romance
+    - Came to its precious and most perfect flower,
+    - Whether you tourneyed with victorious lance
+    - Or brought sweet roundelays to Stella's bower,
+    - I give myself some credit for the way
+    - I have kept clean of what enslaves and lowers,
+    - Shunned the ideals of our present day
+    - And studied those that were esteemed in yours;
+    - For, turning from the mob that buys Success
+    - By sacrificing all Life's better part,
+    - Down the free roads of human happiness
+    - I frolicked, poor of purse but light of heart,
+    - And lived in strict devotion all along
+    - To my three idols - Love and Arms and Song.
+  rating: 1

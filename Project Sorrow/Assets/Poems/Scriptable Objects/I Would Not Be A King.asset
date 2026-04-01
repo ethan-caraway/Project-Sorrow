@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: I Would Not Be A King
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 46
+  title: I Would Not Be A King
+  author: Percy Bysshe Shelley
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - I would not be a king - enough
+    - Of woe it is to love;
+    - The path to power is steep and rough,
+    - And tempests reign above.
+    - I would not climb the imperial throne;
+    - '''Tis built on ice which fortune''s sun'
+    - Thaws in the height of noon.
+    - Then farewell, king, yet were I one,
+    - Care would not come so soon.
+    - Would he and I were far away
+    - Keeping flocks on Himalay!
+  rating: 1

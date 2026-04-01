@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Ballad. A Weedling Wild, On Lonely Lea
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 71
+  title: Ballad. A Weedling Wild, On Lonely Lea
+  author: John Clare
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - A weedling wild, on lonely lea,
+    - My evening rambles chanc'd to see;
+    - And much the weedling tempted me
+    - 'To crop its tender flower:'
+    - Expos'd to wind and heavy rain,
+    - Its head bow'd lowly on the plain;
+    - And silently it seem'd in pain
+    - Of life's endanger'd hour.
+  - lines:
+    - '"And wilt thou bid my bloom decay,'
+    - And crop my flower, and me betray?
+    - And cast my injur'd sweets away,"--
+    - Its silence seemly sigh'd--
+    - '"A moment''s idol of thy mind?'
+    - And is a stranger so unkind,
+    - To leave a shameful root behind,
+    - Bereft of all its pride?"
+  - lines:
+    - And so it seemly did complain;
+    - And beating fell the heavy rain;
+    - And low it droop'd upon the plain,
+    - 'To fate resign''d to fall:'
+    - My heart did melt at its decline,
+    - And "Come," said I, "thou gem divine,
+    - My fate shall stand the storm with thine;"
+    - So took the root and all.
+  rating: 2

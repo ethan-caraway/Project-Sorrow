@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Boots
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 12
+  title: Boots
+  author: Rudyard Kipling
+  stanzas:
+  - lines:
+    - We're foot, slog, slog, slog, sloggin' over Africa,
+    - Foot, foot, foot, foot, sloggin' over Africa,
+    - (Boots, boots, boots, boots, movin' up and down again!)
+    - There's no discharge in the war!
+  - lines:
+    - Seven, six, eleven, five, nine-an'-twenty mile to-day,
+    - Four, eleven, seventeen, thirty-two the day before,
+    - (Boots, boots, boots, boots, movin' up and down again!)
+    - There's no discharge in the war!
+  - lines:
+    - Don't, don't, don't, don't, look at what's in front of you.
+    - (Boots, boots, boots, boots, movin' up an' down again);
+    - Men, men, men, men, men go mad with watchin' em,
+    - An' there's no discharge in the war!
+  - lines:
+    - Try, try, try, try, to think o' something different,
+    - Oh, my, God, keep, me from goin' lunatic!
+    - (Boots, boots, boots, boots, movin' up an' down again!)
+    - There's no discharge in the war!
+  - lines:
+    - Count, count, count, count, the bullets in the bandoliers.
+    - If, your, eyes, drop, they will get atop o' you!
+    - (Boots, boots, boots, boots, movin' up an' down again!)
+    - There's no discharge in the war!
+  - lines:
+    - We, can, stick, out, 'unger, thirst, an' weariness,
+    - But, not, not, not, not the chronic sight of 'em,
+    - Boot, boots, boots, boots, movin' up an' down again,
+    - An' there's no discharge in the war!
+  - lines:
+    - '''Taint, so, bad, by, day because o'' company,'
+    - But night, brings, long, strings, o' forty thousand million
+    - Boots, boots, boots, boots, movin' up an' down again.
+    - There's no discharge in the war!
+  - lines:
+    - I, 'ave, marched, six, weeks in 'Ell an' certify
+    - It, is, not, fire, devils, dark, or anything,
+    - But boots, boots, boots, boots, movin' up an' down again,
+    - An' there's no discharge in the war!
+  rating: 5

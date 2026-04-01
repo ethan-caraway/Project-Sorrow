@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Ironic Poem About Prostitution
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 22
+  title: Ironic Poem About Prostitution
+  author: George Orwell
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - When I was young and had no sense
+    - In far-off Mandalay
+    - I lost my heart to a Burmese girl
+    - As lovely as the day.
+  - lines:
+    - Her skin was gold, her hair was jet,
+    - Her teeth were ivory;
+    - I said, "for twenty silver pieces,
+    - Maiden, sleep with me".
+  - lines:
+    - She looked at me, so pure, so sad,
+    - The loveliest thing alive,
+    - And in her lisping, virgin voice,
+    - Stood out for twenty-five.
+  rating: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c198abc919bfc56479001df2dad73c08, type: 3}
+  m_Name: Hermit
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Judges.JudgeScriptableObject
+  id: 19
+  title: Hermit
+  description: <color=red><b>-100%</b></color> reputation
+  tag: Reputation
+  icon: {fileID: 0}
+  quotes:
+  - Who are you again?
+  - I don't know who you are, nor do I care.
+  - Let's get this over with. I want to go home.
+  minRound: 0

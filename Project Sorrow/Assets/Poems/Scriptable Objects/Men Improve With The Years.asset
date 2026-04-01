@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Men Improve With The Years
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 25
+  title: Men Improve With The Years
+  author: William Butler Yeats
+  stanzas:
+  - lines:
+    - I am worn out with dreams;
+    - A weather-worn, marble triton
+    - Among the streams;
+    - And all day long I look
+    - "Upon this lady\u2019s beauty"
+    - As though I had found in book
+    - A pictured beauty,
+    - Pleased to have filled the eyes
+    - Or the discerning ears,
+    - Delighted to be but wise,
+    - For men improve with the years;
+    - And yet and yet
+    - Is this my dream, or the truth?
+    - O would that we had met
+    - When I had my burning youth;
+    - But I grow old among dreams,
+    - A weather-worn, marble triton
+    - Among the streams.
+  rating: 2

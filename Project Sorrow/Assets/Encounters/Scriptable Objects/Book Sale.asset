@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Book Sale
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 1
+  title: Book Sale
+  description: 'You approach the woman sitting at the back table. There is a spread
+    of books for purchase.
+
+
+    "Hello there, dear," the woman says as she pulls
+    you into an inescapable conversation. She won''t stop talking, and you''re unable
+    to track how much time has passed. You''re in too deep now.
+
+
+    The only way
+    out is to buy something to end the conversation. '
+  options:
+  - title: Buy whatever's cheapest
+    description: Earn <color=#D2D2D2>Chapbook</color>, <color=red>-$5</color>
+    requirement: Requires <color=green>$5</color> and an available item slot
+    conclusion: 'You grab the cheapest book you can find and pull out some money.
+      "Oh that''s one of my favorites! I hope you enjoy."
+
+
+      The woman finally
+      stops talking for a brief moment as you finish your payment. You use this opportunity
+      to get away before she starts up again.'
+    isHidden: 0
+    item: {fileID: 11400000, guid: 5f2a0bd184d6c8d41b3221538482cedf, type: 2}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Buy something you want
+    description: Earn <color=#0050C8>Signed First Edition</color>, <color=red>-$15</color>
+    requirement: Requires <color=green>$15</color> and an available item slot
+    conclusion: "You spot a book that you've been meaning to get for some time. Picking
+      it up, you notice that it's also a first edition.\n\n\"Oh if you open it up,
+      you'll see the author was nice enough to sign it!\" Looking inside, you see
+      that she's right. \n\nYou immediately pay for the book. Seeing the excitement
+      on your face, the woman wishes you well before getting distracted by another
+      potential customer."
+    isHidden: 0
+    item: {fileID: 11400000, guid: f4f22b1b98ba86941b0f1847b163f339, type: 2}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Wait for her to finish
+    description: <color=red>-00:45.00</color>, skip the bar
+    requirement: 
+    conclusion: 'You can''t bring yourself to interupt her. After who knows how long,
+      she stops as the stage is being prepared for the show to continue.
+
+
+      You
+      were trapped in this conversation for the entire intermission! There isn''t
+      any time to go to the bar before your next performance.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: 
+  minRound: 0

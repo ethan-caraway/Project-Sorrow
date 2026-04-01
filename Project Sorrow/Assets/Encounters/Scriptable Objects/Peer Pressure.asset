@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Peer Pressure
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 2
+  title: Peer Pressure
+  description: "You spot a group of your peers chatting by the bar. You've been wanting
+    to make a good impression with them for some time now. \n\nAs you join in on
+    the conversation, someone in the group mentions their empty drink. One of the
+    men turns to you and asks if you'd buy everyone a round."
+  options:
+  - title: Buy a round (cheap)
+    description: Earn <color=#00C300>Light Beer</color>, <color=red>-$12</color>
+    requirement: Requires <color=green>$12</color> and an available consumable slot
+    conclusion: 'Wanting to make a good impression, you decide to buy a round for
+      the group.
+
+
+      You don''t want to spend too much, so you buy one of the
+      cheapest drinks available for everyone.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: 1595f9ffd8ffc7a4b921c690c5b9b409, type: 2}
+    tag: 
+  - title: Buy a round (expensive)
+    description: Earn <color=#0050C8>Single Cask Whiskey</color> <color=#828282>(x2)</color>,
+      <color=red>-$30</color>
+    requirement: Requires <color=green>$30</color> and an available consumable slot
+    conclusion: 'Wanting to impress your peers, you decide to buy the group a round.
+
+
+      You
+      splurge and get something nice for everyone. You hope it won''t tear too much
+      of a hole in your wallet.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: 768b5c76b071461459488374c6fd8ab1, type: 2}
+    tag: 
+  - title: Just say no
+    description: <color=purple>+3</color> arrogance, <color=red>-10</color> reputation
+    requirement: 
+    conclusion: 'Not wanting to spend that kind of money or to give into pressure,
+      you decline.
+
+
+      Everyone seems really disappointed. You don''t think you''ll
+      be on their good sides any time soon.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Arrogance
+  minRound: 0

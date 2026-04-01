@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Returning the Favor
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 9
+  title: Returning the Favor
+  description: 'You bump into your buddy in the crowd.
+
+
+    He tells you he''s going
+    to grab something from the food trucks outside. Since you spotted him some money
+    last time, he offers to buy you something.'
+  options:
+  - title: Ask for some chips
+    description: Earn <color=#00C300>Salt & Vinegar Chips</color>
+    requirement: Requires an available consumable slot
+    conclusion: '"Alright if that''s all you want."
+
+
+      When he returns with
+      your chips, he thanks you for spotting him last time. The two of you discuss
+      your last performance, and he wishes you the best of luck. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: bcf67907b94d3dc46a0a733c5bd0b42a, type: 2}
+    tag: 
+  - title: Ask for a burger
+    description: Earn <color=#00C300>Smash Burger</color>
+    requirement: Requires an available consumable slot
+    conclusion: '"Just like you usually like it, right?"
+
+
+      After a little time,
+      he returns with two fresh burgers from outside. You take in the aroma of what
+      will surely be the greasiest burger you''ve had in a long time. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: 1190e7b31f491b144b47a8dfd8a42350, type: 2}
+    tag: 
+  - title: Ask for some tacos
+    description: Earn <color=#00C300>Fish Tacos</color>
+    requirement: Requires an available consumable slot
+    conclusion: '"Alright, fish tacos are on the way."
+
+
+      He returns a short
+      time later with your tacos and a pair of tacos of his own. The two of you catch
+      up a bit while you have the time. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: a310fb11748e51f42a1fc9c6c3d10b59, type: 2}
+    tag: 
+  - title: Ask for your money back
+    description: <color=green>+$5</color>, <color=red>-2</color> reputation
+    requirement: 
+    conclusion: 'You see the excitement leave his face. "Sure. I was just trying
+      to return the favor."
+
+
+      After he hands you the money, there''s an awkward
+      silence between you. You try to make some small talk, but the conversation
+      is short lived before he leaves. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Reputation
+  minRound: 0

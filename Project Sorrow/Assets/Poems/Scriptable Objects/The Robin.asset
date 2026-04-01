@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Robin
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 83
+  title: The Robin
+  author: Emily Dickinson
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - The robin is the one
+    - That interrupts the morn
+    - With hurried, few, express reports
+    - When March is scarcely on.
+  - lines:
+    - The robin is the one
+    - That overflows the noon
+    - With her cherubic quantity,
+    - An April but begun.
+  - lines:
+    - The robin is the one
+    - That speechless from her nest
+    - Submits that home and certainty
+    - And sanctity are best.
+  rating: 1

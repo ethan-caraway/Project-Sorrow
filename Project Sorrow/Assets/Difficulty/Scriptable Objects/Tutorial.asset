@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0195f2e9e59c51a4683aeb62d56b4e72, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Difficulty.DifficultyScriptableObject
+  title: Tutorial
+  description: 
+  penalties: []
+  unlockCriteria: 
+  rounds:
+  - rating: 1
+    startingSnaps: 250
+    snapsIncrement: 50
+  - rating: 1
+    startingSnaps: 700
+    snapsIncrement: 100
+  - rating: 2
+    startingSnaps: 1600
+    snapsIncrement: 200
+  - rating: 2
+    startingSnaps: 3500
+    snapsIncrement: 500
+  - rating: 3
+    startingSnaps: 8000
+    snapsIncrement: 1000
+  commission: 02000000030000000400000005000000
+  maxConfidence: 20
+  timeAllowanceMinutes: 8
+  maxItems: 6
+  maxConsumables: 3
+  flubPenalty: 0

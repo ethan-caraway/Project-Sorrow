@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e8b3e31cd8ec346a25fb246558e8ac, type: 3}
+  m_Name: Art Grant
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Perks.PerkScriptableObject
+  id: 6
+  title: Art Grant
+  description: 'Earn <color=green><b>x2</b></color> commission
+
+    interest cap
+    reduced to <color=green>$0</color>'
+  icon: {fileID: 0}

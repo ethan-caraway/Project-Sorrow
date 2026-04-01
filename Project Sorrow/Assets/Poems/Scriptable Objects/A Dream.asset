@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: A Dream
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 6
+  title: A Dream
+  author: Edgar Allan Poe
+  stanzas:
+  - lines:
+    - In visions of the dark night
+    - I have dreamed of joy departed
+    - But a waking dream of life and light
+    - Hath left me broken-hearted.
+  - lines:
+    - Ah! what is not a dream by day
+    - To him whose eyes are cast
+    - On things around him with a ray
+    - Turned back upon the past?
+  - lines:
+    - That holy dream that holy dream,
+    - While all the world were chiding,
+    - Hath cheered me as a lovely beam,
+    - A lonely spirit guiding.
+  - lines:
+    - What though that light, thro' storm and night,
+    - So trembled from afar
+    - What could there be more purely bright
+    - In Truth's day star?
+  rating: 2

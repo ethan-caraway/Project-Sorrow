@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Hope
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 17
+  title: Hope
+  author: Joseph Addison
+  stanzas:
+  - lines:
+    - Our lives, discoloured with our present woes,
+    - May still grow white and shine with happier hours.
+    - So the pure limped stream, when foul with stains
+    - Of rushing torrents and descending rains,
+    - Works itself clear, and as it runs refines,
+    - till by degrees the floating mirror shines;
+    - Reflects each flower that on the border grows,
+    - And a new heaven in it's fair bosom shows.
+  rating: 1

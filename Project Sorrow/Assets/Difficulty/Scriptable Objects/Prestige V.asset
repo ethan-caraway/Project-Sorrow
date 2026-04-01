@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0195f2e9e59c51a4683aeb62d56b4e72, type: 3}
+  m_Name: Prestige V
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Difficulty.DifficultyScriptableObject
+  id: 5
+  title: Prestige V
+  description: Goals and ratings increase faster
+  penalties:
+  - <color=red>-00:30.00</color>
+  - Decreased commission
+  - <color=red>-15</color> snaps per flub
+  - Snaps goals increase faster
+  - Poem ratings increase faster
+  unlockCriteria: Win a run of Prestige IV
+  rounds:
+  - rating: 1
+    startingSnaps: 250
+    snapsIncrement: 50
+  - rating: 1
+    startingSnaps: 750
+    snapsIncrement: 150
+  - rating: 2
+    startingSnaps: 2500
+    snapsIncrement: 500
+  - rating: 3
+    startingSnaps: 7000
+    snapsIncrement: 1000
+  - rating: 4
+    startingSnaps: 1600
+    snapsIncrement: 2000
+  commission: 01000000020000000300000005000000
+  maxConfidence: 10
+  timeAllowanceMinutes: 3.5
+  maxItems: 6
+  maxConsumables: 3
+  flubPenalty: -30

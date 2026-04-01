@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: A Bouquet
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 2
+  title: A Bouquet
+  author: Edward Smyth Jones
+  stanzas:
+  - lines:
+    - A blossom pink, a blossom blue,
+    - '    Make all there is in love so true.'
+    - '''Tis fit, methinks, my heart to move,'
+    - '    To give it thee, sweet girl, I love!'
+    - Now, take it, dear, this morn and wear
+    - '    A wreath of beauty in thy hair;'
+    - Think on it, when from bliss we part -
+    - '    The emblem of my wooing heart!'
+  rating: 1

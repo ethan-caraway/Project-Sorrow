@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Purple Valleys
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 93
+  title: The Purple Valleys
+  author: Madison Julius Cawein
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Far in the purple valleys of illusion
+    - I see her waiting, like the soul of music,
+    - With deep eyes, lovelier than cerulean pansies,
+    - Shadow and fire, yet merciless as poison;
+    - With red lips, sweeter than Arabian storax,
+    - Yet bitterer than myrrh.--O tears and kisses!
+    - O eyes and lips, that haunt my soul forever!
+  - lines:
+    - 'Again Spring walks transcendent on the mountains:'
+    - 'The woods are hushed: the vales are blue with shadows:'
+    - Above the heights, steeped in a thousand splendors,
+    - Like some vast canvas of the gods, hangs burning
+    - 'The sunset''s wild sciography: and slowly'
+    - The moon treads heaven's proscenium,--night's stately
+    - White queen of love and tragedy and madness.
+  - lines:
+    - Again I know forgotten dreams and longings;
+    - Ideals lost; desires dead and buried
+    - Beside the altar sacrifice erected
+    - Within the heart's high sanctuary. Strangely
+    - Again I know the horror and the rapture,
+    - The utterless awe, the joy akin to anguish,
+    - The terror and the worship of the spirit.
+  - lines:
+    - Again I feel her eyes pierce through and through me;
+    - Her deep eyes, lovelier than imperial pansies,
+    - Velvet and flame, through which her fierce will holds me,
+    - Powerless and tame, and draws me on and onward
+    - To sad, unsatisfied and animal yearnings,
+    - Wild, unrestrained - the brute within the human--
+    - To fling me panting on her mouth and bosom.
+  - lines:
+    - Again I feel her lips like ice and fire,
+    - Her red lips, odorous as Arabian storax,
+    - Fragrance and fire, within whose kiss destruction
+    - Lies serpent-like. Intoxicating languors
+    - Resistlessly embrace me, soul and body;
+    - And we go drifting, drifting - she is laughing--
+    - Outcasts of God, into the deep's abysm.
+  rating: 0

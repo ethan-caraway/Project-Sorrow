@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: When Life Is Real
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 68
+  title: When Life Is Real
+  author: Edgar Lee Masters
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - We rode, we rode against the wind.
+    - The countless lights along the town
+    - Made the town blacker for their fire,
+    - And you were always looking down.
+  - lines:
+    - To 'scape the blustering breath of March,
+    - Or was it for your mind's disguise?
+    - Still I could shut my eyes and see
+    - The turquoise color of your eyes.
+  - lines:
+    - Surely your ermine furs were warm,
+    - And warm your flowing cloak of red;
+    - Was it the wild wind kept you thus
+    - Pensive and with averted head?
+  - lines:
+    - I scarcely spoke, my words were swept
+    - Like winged things in the wind's despite.
+    - We rode, and with what shadow speed
+    - Across the darkness of the night!
+  - lines:
+    - Without a word, without a look.
+    - What was the charm and what the spell
+    - That made one hour of life become
+    - A memory ever memorable?
+  - lines:
+    - ' *        *        *        *        *'
+  - lines:
+    - All craft, all labor, all desire,
+    - All toil of age, all hope of youth
+    - Are shadows from the fount of fire
+    - And mummers of the truth.
+  - lines:
+    - How bloodless books, how pulseless art,
+    - Vain kingly and imperial zeal,
+    - Vain all memorials of the heart!
+    - When Life itself is real!
+  - lines:
+    - We traced the golden clouds of spring,
+    - We roved the beach, we walked the land.
+    - What was the world? A Phantom thing
+    - That vanished in your hand.
+  - lines:
+    - You were as quiet as the sky.
+    - Your eyes were liquid as the sea.
+    - And in that hour that passed us by
+    - We lived eternally.
+  rating: 4

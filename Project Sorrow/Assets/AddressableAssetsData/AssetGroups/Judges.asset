@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Judges
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Judges
+  m_GUID: 8fcf092802f5487489cd334ffb5a9196
+  m_SerializeEntries:
+  - m_GUID: 3f5719c4c15f27d498bd258c6b73ec4a
+    m_Address: Assets/Judges/Scriptable Objects
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Judge
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 159ae5a5357fd3c44a9f6834f5215984, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cc5bcc5f06e7bce41a069e09629c9d6d, type: 2}
+    - {fileID: 11400000, guid: 6e93b0368e34b234ab77ba765e108fb9, type: 2}

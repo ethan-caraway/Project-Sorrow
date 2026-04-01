@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Investment Strategies
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 8
+  title: Investment Strategies
+  description: 'You find yourself surrounded by a group of older men in suits.
+
+
+    They''re
+    in town on business and were amused by your performance. The conversation drags
+    on as the men brag about the money they''ve made over the years.
+
+
+    Eventually,
+    one of the men turns to you and asks, "So what is your plan for building capital?"'
+  options:
+  - title: Short-term gains
+    description: <color=green>+$1</color> commission
+    requirement: 
+    conclusion: 'The younger executive types agree with you and recount their latest
+      cost cutting measures. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Long-term investments
+    description: <color=green>+$3</color> interest cap
+    requirement: 
+    conclusion: 'The older men look pleased as you talk about how your current investments
+      of growing. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Capital requires the exploitation of labor
+    description: <color=purple>+2</color> arrogance
+    requirement: 
+    conclusion: 'The businessmen look genuinely annoyed, but who better to annoy?
+
+
+      You
+      know capitalism is the problem. '
+    isHidden: 1
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: 
+  minRound: 0

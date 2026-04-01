@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Stopping By Woods On A Snowy Evening
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 28
+  title: Stopping By Woods On A Snowy Evening
+  author: Robert Lee Frost
+  stanzas:
+  - lines:
+    - Whose woods these are I think I know.
+    - His house is in the village, though;
+    - He will not see me stopping here
+    - To watch his woods fill up with snow.
+  - lines:
+    - My little horse must think it's queer
+    - To stop without a farmhouse near
+    - Between the woods and frozen lake
+    - The darkest evening of the year.
+  - lines:
+    - He gives his harness bells a shake
+    - To ask if there's some mistake.
+    - The only other sound's the sweep
+    - Of easy wind and downy flake.
+  - lines:
+    - The woods are lovely, dark, and deep,
+    - But I have promises to keep,
+    - And miles to go before I sleep,
+    - And miles to go before I sleep.
+  rating: 2

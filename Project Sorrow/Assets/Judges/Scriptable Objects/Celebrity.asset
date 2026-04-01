@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c198abc919bfc56479001df2dad73c08, type: 3}
+  m_Name: Celebrity
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Judges.JudgeScriptableObject
+  id: 21
+  title: Celebrity
+  description: 'Start <color=red>Anxious</color> <color=#828282>(x5)</color>
+
+    Become
+    <color=red>Anxious</color> every 10 words'
+  tag: Anxious
+  icon: {fileID: 0}
+  quotes:
+  - Never meet your heroes.
+  - I hope this is worth my time.
+  - My agent said I had to do this.
+  minRound: 0

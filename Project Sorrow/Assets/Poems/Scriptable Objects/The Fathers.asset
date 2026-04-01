@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Fathers
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 88
+  title: The Fathers
+  author: Siegfried Loraine Sassoon
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Snug at the club two fathers sat,
+    - Gross, goggle-eyed, and full of chat.
+    - 'One of them said: "My eldest lad'
+    - Writes cheery letters from Bagdad.
+    - But Arthur's getting all the fun
+    - At Arras with his nine-inch gun."
+  - lines:
+    - '"Yes," wheezed the other, "that''s the luck!'
+    - My boy's quite broken-hearted, stuck
+    - In England training all this year.
+    - Still, if there's truth in what we hear,
+    - The Huns intend to ask for more
+    - ' Before they bolt across the Rhine."'
+    - I watched them toddle through the door -
+    - ' These impotent old friends of mine.'
+  rating: 1

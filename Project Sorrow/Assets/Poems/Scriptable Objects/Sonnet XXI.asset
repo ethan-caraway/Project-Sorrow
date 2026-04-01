@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Sonnet XXI
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 67
+  title: Sonnet XXI
+  author: "Fernando Ant\xF3nio Nogueira Pessoa"
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Thought was born blind, but Thought knows what is seeing.
+    - Its careful touch, deciphering forms from shapes,
+    - Still suggests form as aught whose proper being
+    - Mere finding touch with erring darkness drapes.
+    - Yet whence, except from guessed sight, does touch teach
+    - That touch is but a close and empty sense?
+    - How does mere touch, self-uncontented, reach
+    - For some truer sense's whole intelligence?
+    - The thing once touched, if touch be now omitted,
+    - Stands yet in memory real and outward known,
+    - So the untouching memory of touch is fitted
+    - With sense of a sense whereby far things are shown
+    - '    So, by touch of untouching, wrongly aright,'
+    - '    Touch'' thought of seeing sees not things but Sight.'
+  rating: 1

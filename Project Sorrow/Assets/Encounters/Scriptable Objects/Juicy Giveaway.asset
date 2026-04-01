@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Juicy Giveaway
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 6
+  title: Juicy Giveaway
+  description: 'The corporate sponsor of the event is giving away some samples of
+    their latest line of drinks.
+
+
+    The flavors include Groovy Grape, Awesome
+    Apple, and OG OJ.
+
+
+    A spokesperson encourages you to take some.'
+  options:
+  - title: Take the Groovy Grape
+    description: Earn  <color=#D2D2D2>Grape Juice</color> <color=#828282>(x3)</color>
+    requirement: Requires an available consumable slot
+    conclusion: '"Enjoy the refreshing taste of Groovy Grape! And don''t forget to
+      try our other new flavors," says the spokesperson as you grab your drinks.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: ae6842aa4c6280f428a3df94f4fdd622, type: 2}
+    tag: 
+  - title: Take the Awesome Apple
+    description: Earn <color=#00C300>Apple Juice</color> <color=#828282>(x2)</color>
+    requirement: Requires an available consumable slot
+    conclusion: '"Enjoy the crisp taste of Awesome Apple! Be sure to try all of our
+      new flavors," says the spokesperson as you walk away.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: 98dff78c7a1eaa9449fda79fa36727cd, type: 2}
+    tag: 
+  - title: Take the OG OJ
+    description: Earn <color=#0050C8>Orange Juice</color>
+    requirement: Requires an available consumable slot
+    conclusion: '"OG OJ is my personal favorite, but be sure to try out our other
+      flavors in the future!" says the spokesperson.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 11400000, guid: 20dd570b87ac5114ba5ad40c5b167e8e, type: 2}
+    tag: 
+  - title: Take whatever and give to someone else
+    description: <color=#A1740E>+5</color> reputation
+    requirement: 
+    conclusion: 'You hand your free drink over to the guy in the back of the line.
+
+
+      He
+      thanks you with an approving head nod.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Reputation
+  minRound: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: A Time To Talk
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 9
+  title: A Time To Talk
+  author: Robert Lee Frost
+  stanzas:
+  - lines:
+    - When a friend calls to me from the road
+    - And slows his horse to a meaning walk,
+    - I don't stand still and look around
+    - On all the hills I haven't hoed,
+    - And shout from where I am, 'What is it?'
+    - No, not as there is a time talk.
+    - I thrust my hoe in the mellow ground,
+    - Blade-end up and five feet tall,
+    - 'And plod: I go up to the stone wall'
+    - For a friendly visit.
+  rating: 1

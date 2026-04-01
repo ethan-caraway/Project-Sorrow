@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Laugh And Be Merry
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 24
+  title: Laugh And Be Merry
+  author: John Masefield
+  stanzas:
+  - lines:
+    - Laugh and be merry, remember, better the world with a song,
+    - Better the world with a blow in the teeth of a wrong.
+    - Laugh, for the time is brief, a thread the length of a span.
+    - Laugh and be proud to belong to the old proud pageant of man.
+  - lines:
+    - 'Laugh and be merry: remember, in olden time.'
+    - God made Heaven and Earth for joy He took in a rhyme,
+    - Made them, and filled them full with the strong red wine of
+    - His mirth
+    - 'The splendid joy of the stars: the joy of the earth.'
+  - lines:
+    - So we must laugh and drink from the deep blue cup of the sky,
+    - Join the jubilant song of the great stars sweeping by,
+    - Laugh, and battle, and work, and drink of the wine outpoured
+    - In the dear green earth, the sign of the joy of the Lord.
+  - lines:
+    - Laugh and be merry together, like brothers akin,
+    - Guesting awhile in the rooms of a beautiful inn,
+    - Glad till the dancing stops, and the lilt of the music ends.
+    - Laugh till the game is played; and be you merry, my friends.
+  rating: 2

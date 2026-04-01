@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Remembrance
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 81
+  title: Remembrance
+  author: Fannie Isabelle Sherrick
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - Why should we dream of days gone by?
+    - '    Why should we wait and wonder?'
+    - Sweet summer days have come and gone,
+    - '    The leaves are falling yonder.'
+  - lines:
+    - The wee sweet flowers we loved the best,
+    - '    The king of frost has chosen;'
+    - And now the sun looks sadly down
+    - '    Upon his darlings frozen.'
+  - lines:
+    - Ah! summer sun and autumn frost,
+    - '    You are at war forever;'
+    - For all the ties that one would make
+    - '    The other fain would sever.'
+  - lines:
+    - With autumn days remembrance comes
+    - '    Of golden glories fleeting;'
+    - Of pleasures gone and sorrows come--
+    - '    Of parting and of meeting.'
+  - lines:
+    - Oh! summer days, why haunt us still?
+    - '    Remembrance is a sorrow;'
+    - And all the dreams we dream to-day
+    - '    Will fade upon the morrow.'
+  - lines:
+    - Each life has some sweet summer-time,
+    - '    Some perfect day of beauty;'
+    - When flowers of love and leaves of hope
+    - '    Are twined around each duty.'
+  - lines:
+    - But oh! the autumn-time will come,
+    - '    Which fades each golden glory;'
+    - And life, when we are old and gray,
+    - '    Seems but a sad, old story.'
+  rating: 3

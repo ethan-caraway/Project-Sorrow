@@ -1,0 +1,384 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan" at "2026-03-27T23:03:05.411992Z"
+Date: 2026-03-27T23:03:05Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker26
+-projectPath
+C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow
+-logFile
+Logs/AssetImportWorker26.log
+-srvPort
+59133
+-licensingIpc
+LicenseClient-ethan
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow
+C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36008]  Target information:
+
+Player connection [36008]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 942119642 [EditorId] 942119642 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LMD41HU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19388, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              d7686f4063804494ac361f2645098ffe
+  Correlation Id:          f50bf4e8bb474a228c9191f60d06ce31
+  External correlation Id: 9093870302293641843
+  Machine Id:              K5oX8iBmUGjpqkw3ua0Z8+1m5VM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ethan" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan-notifications" at "2026-03-27T23:03:05.514344Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 110.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega (ID=0x687f)
+    Vendor:   ATI
+    VRAM:     8119 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003382 seconds.
+- Loaded All Assemblies, in  1.047 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.408 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (210ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (601ms)
+			TypeCache.Refresh (600ms)
+				TypeCache.ScanAssembly (585ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-PEUD-QFPU-WNU4-VCQ2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374556456971-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.099 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.056 seconds
+Domain Reload Profiling: 2148ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (763ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (361ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1057ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (810ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7528 unused Assets / (5.2 MB). Loaded Objects now: 8284.
+Memory consumption went from 150.9 MB to 145.7 MB.
+Total: 9.701900 ms (FindLiveObjects: 1.005300 ms CreateObjectMapping: 0.428700 ms MarkObjects: 5.415200 ms  DeleteObjects: 2.851200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 710515.467811 seconds.
+  path: Assets/Consumables/Scriptable Objects/Garden Salad.asset
+  artifactKey: Guid(6556843ebe7bd5c47b296b3f77b250aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Consumables/Scriptable Objects/Garden Salad.asset using Guid(6556843ebe7bd5c47b296b3f77b250aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '051d6a1133e9f0893963907f5068292e') in 0.0220797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Consumables/Scriptable Objects/Green Tea.asset
+  artifactKey: Guid(9e6c080c5695e444ea1727ad6689b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Consumables/Scriptable Objects/Green Tea.asset using Guid(9e6c080c5695e444ea1727ad6689b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86bd3c9993a6077069b37dec3f00af5a') in 0.0014643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Consumables/Scriptable Objects/Hard Soda.asset
+  artifactKey: Guid(995f440136722004a8f1ea9c90e50ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Consumables/Scriptable Objects/Hard Soda.asset using Guid(995f440136722004a8f1ea9c90e50ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d60193c64f2051b7b98ad568cc604d5') in 0.0016481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.124843 seconds.
+  path: Assets/Judges/Scriptable Objects/The Afro-Surrealist.asset
+  artifactKey: Guid(e6fb45a92acb71940b5288a72c560655) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Judges/Scriptable Objects/The Afro-Surrealist.asset using Guid(e6fb45a92acb71940b5288a72c560655) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e929bc6ae5e94a48230581a072e2f471') in 0.2479687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Consumables/Scriptable Objects/Decaf Coffee.asset
+  artifactKey: Guid(9391ee9e5364dcc49902420719a40fb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Decaf Coffee.asset using Guid(9391ee9e5364dcc49902420719a40fb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59022dc12c445e5e94c07daeb3fb9375') in 0.0312743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Scripts/Enums.cs
+  artifactKey: Guid(6e9908686b35bd44a9f470a1f254df8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Game/Scripts/Enums.cs using Guid(6e9908686b35bd44a9f470a1f254df8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dd02ea3c1382ed8534bba3a4194e1c9') in 0.0205225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scriptable Objects/Caesar Salad.asset
+  artifactKey: Guid(7848cdf6e9fd5a046b0af63634e44e40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Caesar Salad.asset using Guid(7848cdf6e9fd5a046b0af63634e44e40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e4d9bd4722b979fd08b08966bd9e41d') in 0.0169452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Consumables/Scriptable Objects/Cheeseburger.asset
+  artifactKey: Guid(076b45a4ddb43f64fafffa330a17d41d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Cheeseburger.asset using Guid(076b45a4ddb43f64fafffa330a17d41d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2042a35184fecaa161dcebec950666f') in 0.0157491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Menus/Scripts/ConsumablesCollection.cs
+  artifactKey: Guid(1a9fb62334278554fa2305efcf2a5771) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Menus/Scripts/ConsumablesCollection.cs using Guid(1a9fb62334278554fa2305efcf2a5771) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac98252fbebdfb95911de8214b94649d') in 0.0157223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Consumables/Scriptable Objects/Non-Alcoholic Beer.asset
+  artifactKey: Guid(d339aeb622e9d304c83aea4fe0c50b99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Non-Alcoholic Beer.asset using Guid(d339aeb622e9d304c83aea4fe0c50b99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7a8cb8a52f4529b7bb23e3eba838fea') in 0.0250697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scriptable Objects/Personal Loan.asset
+  artifactKey: Guid(c9b9a252e088c28478602fe0bab24b40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Personal Loan.asset using Guid(c9b9a252e088c28478602fe0bab24b40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be76c899198f8f4e28261045b3df6830') in 0.0261466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Consumables/Scriptable Objects/White Wine.asset
+  artifactKey: Guid(06a98b4e42cdee644b51d4f3846a0d76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/White Wine.asset using Guid(06a98b4e42cdee644b51d4f3846a0d76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc1db2d2fa50f88c6f464757e25a1b85') in 0.028248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Setlist/Scripts/SetlistManager.cs
+  artifactKey: Guid(a4b95a98265dcd544a93f88242a1ae5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Setlist/Scripts/SetlistManager.cs using Guid(a4b95a98265dcd544a93f88242a1ae5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2af3ed12b777d40d26e6a081fdf0db79') in 0.0147888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Consumables/Scriptable Objects/Garden Salad.asset
+  artifactKey: Guid(6556843ebe7bd5c47b296b3f77b250aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Garden Salad.asset using Guid(6556843ebe7bd5c47b296b3f77b250aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5908d3c6e37746ffbe9a0bcca73c7fc4') in 0.0162973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Consumables/Scriptable Objects/Veggie Burger.asset
+  artifactKey: Guid(bbb61d1605976a143889b866c69a03cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Veggie Burger.asset using Guid(bbb61d1605976a143889b866c69a03cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a236b524a18573e678abe200de147c6') in 0.0251032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Consumables/Scriptable Objects/Diet Soda.asset
+  artifactKey: Guid(4b3f4b7d5df7d6d4ea16cb67c849dd8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Diet Soda.asset using Guid(4b3f4b7d5df7d6d4ea16cb67c849dd8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b17e9b61a96de4e05d188b89b617c722') in 0.0176518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Consumables/Scriptable Objects/Craft Beer.asset
+  artifactKey: Guid(fcb7e2846a3f43e47b8c04963d680995) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Craft Beer.asset using Guid(fcb7e2846a3f43e47b8c04963d680995) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fc35c92c84db382ffc861f740453d4c') in 0.0194083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Consumables/Scriptable Objects/Predatory Loan.asset
+  artifactKey: Guid(2e1e9d9bb3b71dc48b74dc40b2b8cc20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Predatory Loan.asset using Guid(2e1e9d9bb3b71dc48b74dc40b2b8cc20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8be57672a8820f44c2fe5769d1af72d') in 0.0249482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Performance/Scenes/Performance.unity
+  artifactKey: Guid(503820f33b307654faf2625acd4da509) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Performance/Scenes/Performance.unity using Guid(503820f33b307654faf2625acd4da509) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6ae0150c293d21dfa858c3843298e76') in 0.032198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Shop/Scripts/ShopConsumableDisplay.cs
+  artifactKey: Guid(2c940cf745fb1564597001f8a8d7dfca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Shop/Scripts/ShopConsumableDisplay.cs using Guid(2c940cf745fb1564597001f8a8d7dfca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4759c988f59a53861697fb4cf9aebbd2') in 0.0134616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

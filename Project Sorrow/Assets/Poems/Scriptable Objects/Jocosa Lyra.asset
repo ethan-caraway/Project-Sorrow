@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Jocosa Lyra
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 89
+  title: Jocosa Lyra
+  author: Henry Austin Dobson
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - In our hearts is the Great One of Avon
+    - Engraven,
+    - And we climb the cold summits once built on
+    - By Milton.
+  - lines:
+    - But at times not the air that is rarest
+    - Is fairest,
+    - And we long in the valley to follow
+    - Apollo.
+  - lines:
+    - Then we drop from the heights atmospheric
+    - To Herrick,
+    - Or we pour the Greek honey, grown blander,
+    - Of Landor;
+  - lines:
+    - Or our cosiest nook in the shade is
+    - Where Praed is,
+    - Or we toss the light bells of the mocker
+    - With Locker.
+  - lines:
+    - Oh, the song where not one of the Graces
+    - Tight-laces,--
+    - Where we woo the sweet Muses not starchly,
+    - But archly,--
+  - lines:
+    - Where the verse, like a piper a-Maying,
+    - Comes playing,--
+    - And the rhyme is as gay as a dancer
+    - In answer,--
+  - lines:
+    - It will last till men weary of pleasure
+    - In measure!
+    - It will last till men weary of laughter ...
+    - And after!
+  rating: 3

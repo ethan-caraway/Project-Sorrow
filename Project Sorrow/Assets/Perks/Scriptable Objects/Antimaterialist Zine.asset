@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e8b3e31cd8ec346a25fb246558e8ac, type: 3}
+  m_Name: Antimaterialist Zine
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Perks.PerkScriptableObject
+  id: 7
+  title: Antimaterialist Zine
+  description: 'Start with <b>Improved Rarity</b> upgrade
+
+    <color=red><b>-1</b></color>
+    item slots'
+  icon: {fileID: 0}

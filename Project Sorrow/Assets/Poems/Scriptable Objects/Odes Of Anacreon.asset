@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Odes Of Anacreon
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 55
+  title: Odes Of Anacreon - Ode LXXVIII
+  author: Thomas Moore
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - When Cupid sees how thickly now,
+    - The snows of Time fall o'er my brow,
+    - Upon his wing of golden light.
+    - He passes with an eaglet's flight,
+    - And flitting onward seems to say,
+    - '"Fare thee well, thou''st had thy day!"'
+  - lines:
+    - Cupid, whose lamp has lent the ray,
+    - That lights our life's meandering way,
+    - That God, within this bosom stealing,
+    - Hath wakened a strange, mingled feeling.
+    - Which pleases, though so sadly teasing,
+    - And teases, though so sweetly pleasing!
+  - lines:
+    - '             *             *             *             *             *'
+  - lines:
+    - Let me resign this wretched breath
+    - '    Since now remains to me'
+    - No other balm than kindly death,
+    - '    To soothe my misery!'
+  - lines:
+    - '             *             *             *             *             *'
+  - lines:
+    - I know thou lovest a brimming measure,
+    - '    And art a kindly, cordial host;'
+    - But let me fill and drink at pleasure--
+    - '    Thus I enjoy the goblet most.'
+  - lines:
+    - I fear that love disturbs my rest,
+    - '    Yet feel not love''s impassioned care;'
+    - I think there's madness in my breast
+    - '    Yet cannot find that madness there!'
+  - lines:
+    - '             *             *             *             *             *'
+  - lines:
+    - From dread Leucadia's frowning steep,
+    - 'I''ll plunge into the whitening deep:'
+    - And there lie cold, to death resigned,
+    - Since Love intoxicates my mind!
+  - lines:
+    - '             *             *             *             *             *'
+  - lines:
+    - Mix me, child, a cup divine,
+    - Crystal water, ruby wine;
+    - Weave the frontlet, richly flushing
+    - O'er my wintry temples blushing.
+    - Mix the brimmer--Love and I
+    - Shall no more the contest try.
+    - Here--upon this holy bowl,
+    - I surrender all my soul!
+  rating: 5

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Things We Dare Not Tell
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 38
+  title: The Things We Dare Not Tell
+  author: Henry Lawson
+  stanzas:
+  - lines:
+    - The fields are fair in autumn yet, and the sun's still shining there,
+    - But we bow our heads and we brood and fret, because of the masks we wear;
+    - Or we nod and smile the social while, and we say we're doing well,
+    - But we break our hearts, oh, we break our hearts! for the things we must not
+      tell.
+  - lines:
+    - There's the old love wronged ere the new was won, there's the light of long
+      ago;
+    - There's the cruel lie that we suffer for, and the public must not know.
+    - So we go through life with a ghastly mask, and we're doing fairly well,
+    - While they break our hearts, oh, they kill our hearts! do the things we must
+      not tell.
+  - lines:
+    - We see but pride in a selfish breast, while a heart is breaking there;
+    - Oh, the world would be such a kindly world if all men's hearts lay bare!
+    - We live and share the living lie, we are doing very well,
+    - While they eat our hearts as the years go by, do the things we dare not tell.
+  - lines:
+    - We bow us down to a dusty shrine, or a temple in the East,
+    - Or we stand and drink to the world-old creed, with the coffins at the feast;
+    - We fight it down, and we live it down, or we bear it bravely well,
+    - But the best men die of a broken heart for the things they cannot tell.
+  rating: 2

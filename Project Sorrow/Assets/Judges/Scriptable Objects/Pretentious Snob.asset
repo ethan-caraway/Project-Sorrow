@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c198abc919bfc56479001df2dad73c08, type: 3}
+  m_Name: Pretentious Snob
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Judges.JudgeScriptableObject
+  id: 7
+  title: Pretentious Snob
+  description: Words shorter than 5 characters earn <color=red><b>-50%</b></color>
+    snaps
+  tag: 
+  icon: {fileID: 0}
+  quotes:
+  - "Do not bore me with pedestrian clich\xE9s."
+  - Domonstrate to me your percipience of the text.
+  - Most of these performances are frivolous drivel.
+  minRound: 0

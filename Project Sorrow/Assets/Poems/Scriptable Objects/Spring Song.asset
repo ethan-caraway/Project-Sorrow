@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Spring Song
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 82
+  title: Spring Song
+  author: Paul Laurence Dunbar
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - A blue-bell springs upon the ledge,
+    - A lark sits singing in the hedge;
+    - Sweet perfumes scent the balmy air,
+    - And life is brimming everywhere.
+    - What lark and breeze and bluebird sing,
+    - Is Spring, Spring, Spring!
+  - lines:
+    - No more the air is sharp and cold;
+    - The planter wends across the wold,
+    - And, glad, beneath the shining sky
+    - We wander forth, my love and I.
+    - And ever in our hearts doth ring
+    - This song of Spring, Spring!
+  - lines:
+    - For life is life and love is love,
+    - '''Twixt maid and man or dove and dove.'
+    - Life may be short, life may be long,
+    - But love will come, and to its song
+    - Shall this refrain for ever cling
+    - Of Spring, Spring, Spring!
+  rating: 2

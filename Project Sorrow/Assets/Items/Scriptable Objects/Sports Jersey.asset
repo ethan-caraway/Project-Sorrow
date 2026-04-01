@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aeb554770a2b74a9f9e3f3e6d17969, type: 3}
+  m_Name: Sports Jersey
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Items.ItemScriptableObject
+  id: 18
+  title: Sports Jersey
+  description: '<color=#A1740E>+{0}</color> applause
+
+    Gains <color=#A1740E>+2</color>
+    applause per <color=#FFE100>00:05.00</color> remaing at the end of a performance'
+  tag: 
+  icon: {fileID: 0}
+  smallIcon: {fileID: 0}
+  rarity: 1
+  scaleType: 0
+  isVariableDescription: 1
+  isUtility: 0

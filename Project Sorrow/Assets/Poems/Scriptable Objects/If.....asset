@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: If....
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 20
+  title: If....
+  author: Rudyard Kipling
+  stanzas:
+  - lines:
+    - If you can keep your head when all about you
+    - Are losing theirs and blaming it on you;
+    - If you can trust yourself when all men doubt you,
+    - But make allowance for their doubting too;
+    - If you can wait and not be tired by waiting,
+    - Or being lied about, don't deal in lies,
+    - Or being hated, don't give way to hating,
+    - 'And yet don''t look too good, nor talk too wise:'
+  - lines:
+    - If you can dream, and not make dreams your master;
+    - If you can think, and not make thoughts your aim;
+    - If you can meet with Triumph and Disaster
+    - And treat those two imposters just the same;
+    - If you can bear to hear the truth you've spoken
+    - Twisted by knaves to make a trap for fools,
+    - Or watch the things you gave your life to, broken,
+    - And stoop and build 'em up with worn-out tools;
+  - lines:
+    - If you can make one heap of all your winnings
+    - And risk it on one turn of pitch-and-toss,
+    - And lose, and start again at your beginnings
+    - And never breathe a word about your loss;
+    - If you can force your heart and nerve and sinew
+    - To serve your turn long after they are gone,
+    - And so hold on when there is nothing in you
+    - 'Except the Will which says to them: "Hold on!"'
+  - lines:
+    - If you can talk with crowds and keep your virtue,
+    - Or walk with kings, nor lose the common touch,
+    - If neither foes nor loving friends can hurt you,
+    - If all men count with you, but none too much;
+    - If you can fill the unforgiving minute
+    - With sixty seconds' worth of distance run,
+    - Yours is the Earth and everything that's in it,
+    - And, which is more, you'll be a Man, my son!
+  rating: 4

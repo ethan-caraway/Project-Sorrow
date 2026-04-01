@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Social Conundrum
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 7
+  title: Social Conundrum
+  description: 'A random stranger strikes up a conversation with you. They seem nice
+    enough, but your mind begins to wander.
+
+
+    There''s a lull in the conversation.
+    The stranger is waiting for you to respond, but you missed whatever they said.'
+  options:
+  - title: Smile and nod
+    description: <color=red>-1</color> confidence
+    conclusion: 'You hope that if you simply nod along, they won''t notice how lost
+      you are. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Change the subject
+    description: <color=red>-3</color> reputation
+    conclusion: 'Unsure how to respond, you change the subject to something else
+      entirely.
+
+
+      They appear somewhat annoyed with you, but at least you know
+      what''s being talked about now. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Reputation
+  - title: Ask them to repeat themself
+    description: <color=red>-00:20.00</color>
+    conclusion: 'You feel like it''s the honest thing to do, but now they''re retelling
+      their entire story. '
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: 
+  minRound: 0
+  rarity: 0

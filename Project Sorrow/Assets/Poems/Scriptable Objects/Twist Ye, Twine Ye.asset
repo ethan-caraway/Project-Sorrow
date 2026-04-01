@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Twist Ye, Twine Ye
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 43
+  title: Twist Ye, Twine Ye
+  author: Sir Walter Scott
+  stanzas:
+  - lines:
+    - Twist ye, twine ye! even so,
+    - Mingle shades of joy and woe,
+    - Hope, and fear, and peace, and strife,
+    - In the thread of human life.
+  - lines:
+    - While the mystic twist is spinning,
+    - And the infant's life beginning,
+    - Dimly seen through twilingt bending,
+    - Lo, what varied shapes attending!
+  - lines:
+    - Passions wild, and follies vain,
+    - Pleasures soon exchanged for pain;
+    - Dount, and jealousy, and fear,
+    - In the magic dance appear.
+  - lines:
+    - Now they wax, and now they dwindle,
+    - Whirling with the whirling spindle.
+    - Twist ye, twine ye! even so,
+    - Mingle human bliss and woe.
+  rating: 2

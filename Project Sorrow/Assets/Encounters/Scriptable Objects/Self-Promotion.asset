@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: Self-Promotion
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 5
+  title: Self-Promotion
+  description: 'A local event planner approaches you with an offer.
+
+
+    There''s
+    a couple of opportunities coming up that could use some talent. One is an ad
+    for a somewhat questionable company. Another is an annual charity fundraiser.
+
+
+    He
+    pushes you to agree to one and won''t take no for an answer. '
+  options:
+  - title: Sell out for the ad
+    description: <color=green>+$30</color>, <color=red>-15</color> reputation
+    requirement: 
+    conclusion: 'Despite the company''s reputation, you agree to do the ad for some
+      extra cash.
+
+
+      Unfortunately, some of your peers overhear this deal. As
+      you walk away, you can see the real look of disappointment on their faces.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Reputation
+  - title: Agree to help with the charity
+    description: <color=#A1740E>+10</color> reputation, <color=red>-$20</color>
+    requirement: Requires <color=green>$20</color>
+    conclusion: "You agree to help with the charity and donate some money. \n\nEveryone
+      liked that."
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Reputation
+  - title: Host the charity event
+    description: <color=#A1740E>+20</color> reputation, lose <color=#00C300>Giant
+      Check</color>
+    requirement: 
+    conclusion: 'Seizing the opportunity, you suggest hosting the charity event.
+
+
+      The
+      event planner loves the idea and starts exclaiming his excitement. The people
+      around you even start clapping.
+
+
+      Everyone really liked that.'
+    isHidden: 1
+    item: {fileID: 11400000, guid: 25f1774ba621fbd43b6f793c7caaad52, type: 2}
+    consumable: {fileID: 0}
+    tag: 
+  minRound: 0

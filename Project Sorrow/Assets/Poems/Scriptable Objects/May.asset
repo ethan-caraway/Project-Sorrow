@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: May
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 94
+  title: May
+  author: Johann Wolfgang von Goethe
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Light and silv'ry cloudlets hover
+  - lines:
+    - In the air, as yet scarce warm;
+    - Mild, with glimmer soft tinged over,
+  - lines:
+    - Peeps the sun through fragrant balm.
+    - Gently rolls and heaves the ocean
+  - lines:
+    - As its waves the bank o'erflow.
+    - And with ever restless motion
+  - lines:
+    - Moves the verdure to and fro,
+  - lines:
+    - Mirror'd brightly far below.
+  - lines:
+    - What is now the foliage moving?
+  - lines:
+    - Air is still, and hush'd the breeze,
+    - Sultriness, this fullness loving,
+  - lines:
+    - Through the thicket, from the trees.
+    - Now the eye at once gleams brightly,
+  - lines:
+    - See! the infant band with mirth
+    - Moves and dances nimbly, lightly,
+  - lines:
+    - As the morning gave it birth,
+  - lines:
+    - Flutt'ring two and two o'er earth.
+  rating: 2

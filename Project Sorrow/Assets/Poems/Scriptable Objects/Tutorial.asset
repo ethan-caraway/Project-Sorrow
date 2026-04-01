@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 0
+  title: How To Play
+  author: Yours Truly
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Type out the words of the poem
+    - Typing characters correctly earns you snaps
+    - You can earn applause at the end of your performance
+    - Earn enough snaps and applause to meet the goal
+  - lines:
+    - Making a mistake is referred to as a flub
+    - Flubbing will cost you confidence
+    - Run out of confidence, and you'll be boo'd off stage
+    - Your reputation will earn you snaps for any confidence remaining
+  - lines:
+    - There's also a time limit
+    - Complete the poem before you run out of time
+    - You'll earn money based on how much time remains at the end
+    - You'll also earn money from each performance's commission
+  - lines:
+    - Money can be used at the bar
+    - Buy items and consumables to improve your performances
+    - Rearrange items for optimal efficiency
+    - Items and consumables can also be sold at the bar
+  - lines:
+    - But most importantly, have fun!
+  rating: -1

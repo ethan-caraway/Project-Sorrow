@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The New Love
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 60
+  title: The New Love
+  author: Ella Wheeler Wilcox
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - I thought my heart was death chilled,
+    - '     I thought its fires were cold;'
+    - But the new love, the new love,
+    - '     It warmeth like the old.'
+  - lines:
+    - I thought its rooms were shadowed
+    - '     With the gloom of endless night;'
+    - But the new love, the new love,
+    - '     It fills them full of light.'
+  - lines:
+    - I thought the chambers empty,
+    - '     And proclaimed it unto men;'
+    - But the new love, the new love,
+    - '     It peoples them again.'
+  - lines:
+    - I thought its halls were silent,
+    - '     And hushed the whole day long;'
+    - But the new love, the new love,
+    - '     It fills them full of song.'
+  - lines:
+    - Then here is to the new love,
+    - '     Let who will sing the old;'
+    - The new love, the new love,
+    - '     ''Tis more than fame or gold.'
+  - lines:
+    - For it gives us joy for sorrow,
+    - '     And it gives us warmth for cold;'
+    - Oh! the new love, the new love,
+    - '     ''Tis better than the old.'
+  rating: 3

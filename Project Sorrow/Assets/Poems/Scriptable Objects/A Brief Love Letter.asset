@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: A Brief Love Letter
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 3
+  title: A Brief Love Letter
+  author: Nizar Qabbani
+  stanzas:
+  - lines:
+    - My darling, I have much to say
+    - Where o precious one shall I begin ?
+    - O you who makes of my words through their meaning
+    - Cocoons of silk
+    - These are my songs and this is me
+    - This short book contains us
+    - Tomorrow when I return its pages
+    - A lamp will lament
+    - A bed will sing
+    - Its letters from longing will turn green
+    - Its commas be on the verge of flight
+    - 'Do not say: why did this youth'
+    - Speak of me to the winding road and the stream
+    - The almond tree and the tulip
+    - So that the world escorts me wherever I go ?
+    - Why did he sing these songs ?
+    - Now there is no star
+    - That is not perfumed with my fragrance
+    - Tomorrow people will see me in his verse
+    - A mouth the taste of wine, close-cropped hair
+    - Ignore what people say
+    - You will be great only through my great love
+    - What would the world have been if we had not been
+    - If your eyes had not been, what would the world have been?
+  rating: 3

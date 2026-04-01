@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: '#1 Bestseller'
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 11
+  title: '#1 Bestseller'
+  description: 'Your peers are discussing their thoughts on a popular new bestseller.
+
+
+    Everyone
+    is singing its praises. After going around and giving their thoughts, the group
+    turns to you for yours.
+
+
+    You haven''t read the novel because you''ve never
+    cared for the author''s previous works, but you do want to be a part of the discussion.'
+  options:
+  - title: Lie and say you liked it
+    description: Become <color=#A1740E>Popular</color> <color=#828282>(x3)</color>
+      and <color=red>Anxious</color> <color=#828282>(x3)</color>
+    requirement: test
+    conclusion: 'You just repeat some of the points other people made without getting
+      too specific.
+
+
+      Everyone one else nods in agreement. Luckily, the group''s
+      focus doesn''t stay on you for long as someone in the group can''t contain
+      their excitement and begins going on about their own thoughts on the book.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Popular
+  - title: Lie and say you didn't care for it
+    description: Become <color=purple>Stubborn</color> <color=#828282> (x4)</color>,
+      <color=red>-3</color> reputation
+    requirement: 
+    conclusion: 'Thinking back to what you hated about the author''s previous books,
+      you begin complaining about the prose.
+
+
+      Seeing the group''s frustrations
+      encourages to be even more of a contrarian. You talk about how the writing
+      is derivative and hack. The more people push back, the more you double down.
+
+
+      The
+      author gets too much credit in your mind, and it''s your job to let people
+      know.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Stubborn
+  - title: Admit you haven't read it
+    description: Become Serious <color=#828282>(x2)</color>, <color=red>-1</color>
+      confidence
+    requirement: 
+    conclusion: 'Not wanting to lie, you fess up to having not read the book. You
+      admit that everyone makes the book sound interesting, but you also didn''t
+      care for the author''s last book.
+
+
+      The group quickly moves on to discussion
+      their favorite aspects of the book. You feel left out of the conversation,
+      so you end up leaving shortly thereafter.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Serious
+  minRound: 1

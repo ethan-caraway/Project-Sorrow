@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Philosophers
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 90
+  title: The Philosophers
+  author: Michael Earls
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - The best of true philosophers
+    - Are the children, after all, -
+    - The children with laughing hearts
+    - 'And the serious field and ball:'
+    - They have a bowl and bubbles,
+    - And hours where rainbows are;
+    - They find, if ever the sun is hid,
+    - In every dark a star.
+  - lines:
+    - But, O, the sorry men that make
+    - The wise books of our day!
+    - They cannot smile athwart a cloud,
+    - When black thoughts lead astray;
+    - They cannot add a simple sum,
+    - But talk like drunken men,
+    - And shut their eyes to keep out God
+    - When spring comes in again.
+  - lines:
+    - Far simpler than the Rule of Three
+    - Are the laws of earth and sky;
+    - Yet fools will muddle all true thought,
+    - And pride will have its cry;
+    - The banners with their deadly words
+    - Go reeling on unfurled,
+    - And sin and sadness march along
+    - To the heartbreak of the world.
+  rating: 3

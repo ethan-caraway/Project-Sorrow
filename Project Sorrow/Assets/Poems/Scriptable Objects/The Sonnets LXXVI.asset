@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Sonnets LXXVI
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 53
+  title: The Sonnets LXXVI - Why is my verse so barren of new pride
+  author: William Shakespeare
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Why is my verse so barren of new pride,
+    - So far from variation or quick change?
+    - Why with the time do I not glance aside
+    - To new-found methods, and to compounds strange?
+    - Why write I still all one, ever the same,
+    - And keep invention in a noted weed,
+    - That every word doth almost tell my name,
+    - Showing their birth, and where they did proceed?
+    - O! know sweet love I always write of you,
+    - And you and love are still my argument;
+    - So all my best is dressing old words new,
+    - 'Spending again what is already spent:'
+    - For as the sun is daily new and old,
+    - So is my love still telling what is told.
+  rating: 1

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Progress
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 65
+  title: Progress
+  author: Ella Wheeler Wilcox
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - '    Let there be many windows to your soul,'
+    - '    That all the glory of the universe'
+    - '    May beautify it. Not the narrow pane'
+    - '    Of one poor creed can catch the radiant rays'
+    - '    That shine from countless sources. Tear away'
+    - '    The blinds of superstition; let the light'
+    - '    Pour through fair windows broad as Truth itself'
+    - '    And high as God.'
+  - lines:
+    - Why should the spirit peer
+    - '    Through some priest-curtained orifice, and grope'
+    - '    Along dim corridors of doubt, when all'
+    - '    The splendor from unfathomed seas of space'
+    - '    Might bathe it with the golden waves of Love?'
+    - '    Sweep up the debris of decaying faiths;'
+    - '    Sweep down the cobwebs of worn-out beliefs,'
+    - '    And throw your soul wide open to the light'
+    - '    Of Reason and of Knowledge. Tune your ear'
+    - '    To all the wordless music of the stars'
+    - '    And to the voice of Nature, and your heart'
+    - '    Shall turn to truth and goodness as the plant'
+    - '    Turns to the sun. A thousand unseen hands'
+    - '    Reach down to help you to their peace-crowned heights.'
+    - '    And all the forces of the firmament'
+    - '    Shall fortify your strength. Be not afraid'
+    - '    To thrust aside half-truths and grasp the whole.'
+  rating: 3

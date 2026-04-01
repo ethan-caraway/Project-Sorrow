@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Because I could not stop for Death
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 85
+  title: Because I could not stop for Death
+  author: Emily Dickinson
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - Because I could not stop for Death -
+    - He kindly stopped for me -
+    - The Carriage held but just Ourselves -
+    - And Immortality.
+  - lines:
+    - We slowly drove - He knew no haste
+    - And I had put away
+    - My labor and my leisure too,
+    - For His Civility -
+  - lines:
+    - We passed the School, where Children strove
+    - At Recess - in the Ring -
+    - We passed the Fields of Gazing Grain -
+    - We passed the Setting Sun -
+  - lines:
+    - Or rather - He passed us -
+    - The Dews drew quivering and chill -
+    - For only Gossamer, my Gown -
+    - My Tippet - only Tulle -
+  - lines:
+    - We paused before a House that seemed
+    - A Swelling of the Ground -
+    - The Roof was scarcely visible -
+    - The Cornice - in the Ground -
+  - lines:
+    - "Since then - \u2019tis Centuries - and yet"
+    - Feels shorter than the Day
+    - "I first surmised the Horses\u2019 Heads"
+    - Were toward Eternity -
+  rating: 3

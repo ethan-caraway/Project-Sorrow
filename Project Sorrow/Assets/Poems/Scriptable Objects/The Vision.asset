@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Vision
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 86
+  title: The Vision
+  author: Virna Sheard
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - Long had she knelt at the Madonna's shrine,
+    - ' With the empty chapel, cold and grey,'
+    - Telling her beads, while grief with marring line
+    - ' And bitter tear stole all her youth away.'
+  - lines:
+    - Outcast was she from what Life holdeth dear;
+    - ' Banished from joy that other souls might win;'
+    - And from the dark beyond she turned with fear,
+    - ' Being so branded by the mark of sin.'
+  - lines:
+    - Yet when at last she raised her troubled face,
+    - ' Haunted by sorrow, whitened by alarms,'
+    - Mary leaned down from out the pictured place,
+    - ' And laid the little Christ within her arms.'
+  - lines:
+    - Rosy and warm she held Him to her heart,
+    - ' She - the abandoned one - the thing apart.'
+  rating: 1

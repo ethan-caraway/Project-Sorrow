@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Burning Glass
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 74
+  title: The Burning Glass
+  author: George William Russell
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - A shaft of fire that falls like dew,
+    - And melts and maddens all my blood,
+    - From out thy spirit flashes through
+    - The burning glass of womanhood.
+  - lines:
+    - 'Only so far; here must I stay:'
+    - 'Nearer I miss the light, the fire:'
+    - I must endure the torturing ray,
+    - And, with all beauty, all desire.
+  - lines:
+    - Ah, time-long must the effort be,
+    - And far the way that I must go
+    - To bring my spirit unto thee,
+    - Behind the glass, within the glow.
+  rating: 1

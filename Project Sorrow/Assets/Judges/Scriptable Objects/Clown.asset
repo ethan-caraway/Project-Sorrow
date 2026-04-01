@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c198abc919bfc56479001df2dad73c08, type: 3}
+  m_Name: Clown
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Judges.JudgeScriptableObject
+  id: 17
+  title: Clown
+  description: A random item is disable each line
+  tag: 
+  icon: {fileID: 0}
+  quotes:
+  - How well can you juggle?
+  - And I thought I was the fool here!
+  - Whose performance will get more laughs? Yours or mine?
+  minRound: 3

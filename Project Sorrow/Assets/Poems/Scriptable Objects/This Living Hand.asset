@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: This Living Hand
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 40
+  title: This Living Hand
+  author: John Keats
+  stanzas:
+  - lines:
+    - This living hand, now warm and capable
+    - Of earnest grasping, would, if it were cold
+    - And in the icy silence of the tomb,
+    - So haunt thy days and chill thy dreaming nights
+    - That thou wouldst wish thine own heart dry of blood
+    - So in my veins red life might stream again,
+    - And thou be conscience-calmed, see here it is
+    - I hold it towards you.
+  rating: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: To His Household Gods
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 78
+  title: To His Household Gods
+  author: Robert Herrick
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Rise, household gods, and let us go;
+    - But whither I myself not know.
+    - First, let us dwell on rudest seas;
+    - Next, with severest savages;
+    - Last, let us make our best abode
+    - 'Where human foot as yet ne''er trod:'
+    - Search worlds of ice, and rather there
+    - Dwell than in loathed Devonshire.
+  rating: 1

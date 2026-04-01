@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: A Jelly-Fish
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 57
+  title: A Jelly-Fish
+  author: Marianne Moore
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - Visible, invisible,
+    - A fluctuating charm,
+    - An amber-colored amethyst
+    - Inhabits it; your arm
+    - Approaches, and
+    - It opens and
+    - It closes;
+    - You have meant
+    - To catch it,
+    - And it shrivels;
+    - You abandon
+    - Your intent -
+    - It opens, and it
+    - Closes and you
+    - Reach for it -
+    - The blue
+    - Surrounding it
+    - Grows cloudy, and
+    - It floats away
+    - From you.
+  rating: 2

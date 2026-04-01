@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: To Anthea
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 69
+  title: To Anthea
+  author: Robert Herrick
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Anthea, I am going hence
+    - With some small stock of innocence;
+    - But yet those blessed gates I see
+    - Withstanding entrance unto me;
+    - To pray for me do thou begin;
+    - The porter then will let me in.
+  rating: 0

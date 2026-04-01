@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Road Not Taken
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 35
+  title: The Road Not Taken
+  author: Robert Lee Frost
+  stanzas:
+  - lines:
+    - Two roads diverged in a yellow wood,
+    - And sorry I could not travel both
+    - And be one traveler, long I stood
+    - And looked down one as far as I could
+    - To where it bent in the undergrowth;
+  - lines:
+    - Then took the other, as just as fair
+    - And having perhaps the better claim,
+    - Because it was grassy and wanted wear;
+    - Though as for that, the passing there
+    - Had worn them really about the same,
+  - lines:
+    - And both that morning equally lay
+    - In leaves no step had trodden black
+    - Oh, I kept the first for another day!
+    - Yet knowing how way leads on to way,
+    - I doubted if I should ever come back.
+  - lines:
+    - I shall be telling this with a sigh
+    - 'Somewhere ages and ages hence:'
+    - Two roads diverged in a wood, and I,
+    - I took the one less traveled by,
+    - And that has made all the difference.
+  rating: 2

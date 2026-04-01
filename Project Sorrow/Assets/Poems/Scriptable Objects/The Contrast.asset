@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Contrast
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 31
+  title: The Contrast
+  author: Captain C. Morris
+  stanzas:
+  - lines:
+    - In London I never know what I'd be at,
+    - Enraptured with this, and enchanted with that;
+    - I'm wild with the sweets of variety's plan,
+    - And life seems a blessing too happy for man.
+  - lines:
+    - But the country, Lord help me! sets all matters right,
+    - So calm and composing from morning to night;
+    - Oh, it settles the spirits when nothing is seen
+    - But an ass on a common, a goose on a green!
+  - lines:
+    - In town, if it rain, why it damps not our hope,
+    - The eye has her choice, and the fancy her scope;
+    - What harm though it pour whole nights or whole days?
+    - It spoils not our prospects, or stops not our ways.
+  - lines:
+    - In the country, what bliss, when it rains in the fields,
+    - To live on the transports that shuttlecock yields;
+    - Or go crawling from window to window, to see
+    - A pig on a dunghill or crow on a tree.
+  - lines:
+    - In town, we've no use for the skies overhead,
+    - For when the sun rises then we go to bed;
+    - And as to that old-fashioned virgin the moon,
+    - She shines out of season, like satin in June.
+  - lines:
+    - In the country, these planets delightfully glare,
+    - Just to show us the object we want isn't there;
+    - Oh, how cheering and gay, when their beauties arise,
+    - To sit and gaze round with the tears in one's eyes!
+  - lines:
+    - But 'tis in the country alone we can find
+    - That happy resource, the relief of the mind,
+    - When, drove to despair, our last efforts we make,
+    - 'And drag the old fish-pond, for novelty''s sake:'
+  - lines:
+    - Indeed I must own, 'tis a pleasure complete
+    - To see ladies well-draggled and wet in their feet;
+    - But what is all that to the transport we feel
+    - When we capture, in triumph, two toads and an eel?
+  - lines:
+    - I have heard though, that love in a cottage is sweet,
+    - When two hearts in one link of soft sympathy meet;
+    - That's to come, for as yet I, alas! am a swain,
+    - Who require, I own it, more links to my chain.
+  - lines:
+    - In the country, if Cupid should find a man out,
+    - The poor tortured victim mopes hopeless about;
+    - But in London, thank Heaven! our peace is secure,
+    - Where for one eye to kill, there's a thousand to cure.
+  - lines:
+    - In town let me live then, in town let me die,
+    - For in truth I can't relish the country, not I.
+    - If one must have a villa in summer to dwell,
+    - Oh, give me the sweet shady side of Pall Mall!
+  rating: 5

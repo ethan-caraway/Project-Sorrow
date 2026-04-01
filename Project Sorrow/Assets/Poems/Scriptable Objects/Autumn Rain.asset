@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Autumn Rain
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 11
+  title: Autumn Rain
+  author: D. H. Lawrence
+  stanzas:
+  - lines:
+    - The plane leaves
+    - fall black and wet
+    - on the lawn;
+  - lines:
+    - The cloud sheaves
+    - in heaven's fields set
+    - droop and are drawn
+  - lines:
+    - in falling seeds of rain;
+    - the seed of heaven
+    - on my face
+  - lines:
+    - falling - I hear again
+    - like echoes even
+    - that softly pace
+  - lines:
+    - Heaven's muffled floor,
+    - the winds that tread
+    - out all the grain
+  - lines:
+    - of tears, the store
+    - harvested
+    - in the sheaves of pain
+  - lines:
+    - 'caught up aloft:'
+    - the sheaves of dead
+    - men that are slain
+  - lines:
+    - now winnowed soft
+    - on the floor of heaven;
+    - manna invisible
+  - lines:
+    - of all the pain
+    - here to us given;
+    - finely divisible
+    - falling as rain.
+  rating: 3

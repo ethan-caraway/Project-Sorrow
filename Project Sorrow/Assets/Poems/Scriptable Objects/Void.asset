@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Void
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 59
+  title: Void
+  author: Emily Dickinson
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - Great streets of silence led away
+    - To neighborhoods of pause;
+    - Here was no notice, no dissent,
+    - No universe, no laws.
+  - lines:
+    - By clocks 't was morning, and for night
+    - The bells at distance called;
+    - But epoch had no basis here,
+    - For period exhaled.
+  rating: 1

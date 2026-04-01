@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Husband, Husband.
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 19
+  title: Husband, Husband.
+  author: Robert Burns
+  stanzas:
+  - lines:
+    - I.
+    - Husband, husband, cease your strife,
+    - '    Nor longer idly rave, sir;'
+    - Tho' I am your wedded wife,
+    - '    Yet I am not your slave, sir.'
+    - '"One of two must still obey,'
+    - '    Nancy, Nancy;'
+    - Is it man or woman, say,
+    - '    My spouse, Nancy?"'
+  - lines:
+    - II.
+    - If 'tis still the lordly word,
+    - '    Service and obedience;'
+    - I'll desert my sov'reign lord,
+    - '    And so, good bye, allegiance!'
+    - '"Sad will I be, so bereft,'
+    - '    Nancy, Nancy;'
+    - Yet I'll try to make a shift,
+    - '    My spouse, Nancy."'
+  - lines:
+    - III.
+    - My poor heart then break it must,
+    - '    My last hour I''m near it:'
+    - When you lay me in the dust,
+    - '    Think, think, how you will bear it.'
+    - '"I will hope and trust in heaven,'
+    - '    Nancy, Nancy;'
+    - Strength to bear it will be given,
+    - '    My spouse, Nancy."'
+  - lines:
+    - IV.
+    - Well, sir, from the silent dead,
+    - '    Still I''ll try to daunt you;'
+    - Ever round your midnight bed
+    - '    Horrid sprites shall haunt you.'
+    - '"I''ll wed another, like my dear'
+    - '    Nancy, Nancy;'
+    - Then all hell will fly for fear,
+    - '    My spouse, Nancy."'
+  rating: 4

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Singing-Woman from the Wood's Edge
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 54
+  title: The Singing-Woman from the Wood's Edge
+  author: Edna St. Vincent Millay
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - What should I be but a prophet and a liar,
+    - Whose mother was a leprechaun, whose father was a friar?
+    - Teethed on a crucifix and cradled under water,
+    - What should I be but the fiend's god-daughter?
+  - lines:
+    - And who should be my playmates but the adder and the frog,
+    - That was got beneath a furze-bush and born in a bog?
+    - And what should be my singing, that was christened at an altar,
+    - But Aves and Credos and Psalms out of the Psalter?
+  - lines:
+    - You will see such webs on the wet grass, maybe,
+    - As a pixie-mother weaves for her baby,
+    - You will find such flame at the wave's weedy ebb
+    - As flashes in the meshes of a mer-mother's web,
+  - lines:
+    - But there comes to birth no common spawn
+    - From the love of a priest for a leprechaun,
+    - And you never have seen and you never will see
+    - Such things as the things that swaddled me!
+  - lines:
+    - After all's said and after all's done,
+    - What should I be but a harlot and a nun?
+  - lines:
+    - In through the bushes, on any foggy day,
+    - My Da would come a-swishing of the drops away,
+    - With a prayer for my death and a groan for my birth,
+    - A-mumbling of his beads for all that he was worth.
+  - lines:
+    - And there'd sit my Ma, with her knees beneath her chin,
+    - A-looking in his face and a-drinking of it in,
+    - And a-marking in the moss some funny little saying
+    - That would mean just the opposite of all that he was praying!
+  - lines:
+    - He taught me the holy-talk of Vesper and of Matin,
+    - He heard me my Greek and he heard me my Latin,
+    - He blessed me and crossed me to keep my soul from evil,
+    - And we watched him out of sight, and we conjured up the devil!
+  - lines:
+    - Oh, the things I haven't seen and the things I haven't known.
+    - What with hedges and ditches till after I was grown,
+    - And yanked both ways by my mother and my father,
+    - With a "Which would you better?" and a "Which would you rather?"
+  - lines:
+    - With him for a sire and her for a dam,
+    - What should I be but just what I am?
+  rating: 4

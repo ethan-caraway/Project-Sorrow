@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: He And She
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 16
+  title: He And She
+  author: William Butler Yeats
+  stanzas:
+  - lines:
+    - As the moon sidles up
+    - Must she sidle up,
+    - As trips the scared moon
+    - 'Away must she trip:'
+    - '"His light had struck me blind'
+    - Dared I stop'.
+    - 'She sings as the moon sings:'
+    - '"I am I, am I;'
+    - The greater grows my light
+    - The further that I fly'.
+    - All creation shivers
+    - With that sweet cry
+  rating: 1

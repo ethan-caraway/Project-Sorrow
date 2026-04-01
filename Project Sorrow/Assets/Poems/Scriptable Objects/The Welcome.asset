@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Welcome
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 39
+  title: The Welcome
+  author: Thomas Osborne Davis
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Come in the evening, or come in the morning;
+    - "Come when you're look\u2019d for, or come without warning:"
+    - Kisses and welcome you'll find here before you,
+    - And the oftener you come here the more I'll adore you!
+    - Light is my heart since the day we were plighted;
+    - Red is my cheek that they told me was blighted;
+    - The green of the trees looks far greener than ever,
+    - "And the linnets are singing, \u201CTrue lovers don\u2019t sever!\u201D"
+  - lines:
+    - I'll pull you sweet flowers, to wear if you choose them,
+    - "Or, after you\u2019ve kiss\u2019d them, they'll lie on my bosom;"
+    - I'll fetch from the mountain its breeze to inspire you;
+    - "I'll fetch from my fancy a tale that won\u2019t tire you."
+    - "Oh! your step\u2019s like the rain to the summer-vex\u2019d farmer,"
+    - Or sabre and shield to a knight without armor;
+    - "I\u2019ll sing you sweet songs till the stars rise above me,"
+    - "Then, wandering, I\u2019ll wish you in silence to love me."
+  - lines:
+    - We'll look through the trees at the cliff and the eyrie;
+    - We'll tread round the rath on the track of the fairy;
+    - We'll look on the stars, and we'll list to the river,
+    - 'Till you ask of your darling what gift you can give her:'
+    - "Oh! she'll whisper you \u201CLove, as unchangeably beaming,"
+    - And trust, when in secret, most tunefully streaming;
+    - Till the starlight of heaven above us shall quiver,
+    - "As our souls flow in one down eternity\u2019s river.\u201D"
+  - lines:
+    - So come in the evening, or come in the morning;
+    - 'Come when you''re looked for, or come without warning:'
+    - Kisses and welcome you'll find here before you,
+    - And the oftener you come here the more I'll adore you!
+    - Light is my heart since the day we were plighted;
+    - Red is my cheek that they told me was blighted;
+    - The green of the trees looks far greener than ever,
+    - "And the linnets are singing, \u201CTrue lovers don\u2019t sever!\u201D"
+  rating: 4

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ee8ab7554a13a4d9d7566ffc03ae8b, type: 3}
+  m_Name: The Magician
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Encounters.EncounterScriptableObject
+  id: 3
+  title: The Magician
+  description: "A man is performing card tricks for anyone who will give him the
+    time. \n\nDespite your best efforts, he manages to corner you. After performing
+    a flashy shuffle for you, he extends the deck out toward you.\n\n\"Pick a card.
+    Any card!\""
+  options:
+  - title: Pick a top card
+    description: Earn <color=#D2D2D2>4 of Diamonds</color>
+    requirement: Requires an available item slot
+    conclusion: 'After giving the deck a quick tap and saying something cheesy, the
+      man reveals the entire deck to now be the same card.
+
+
+      He insists you
+      keep the card as a lucky charm.'
+    isHidden: 0
+    item: {fileID: 11400000, guid: 03d764d3620ba4e4fb58518dd8c219bb, type: 2}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Pick a middle card
+    description: Earn <color=#00C300>Flashcard</color>
+    requirement: Requires an available item slot
+    conclusion: '"Ha! How did that get in there?"
+
+
+      The man then pulls identical
+      flashcards from various places. He insists you keep yours and tell your friends
+      about his antics.'
+    isHidden: 0
+    item: {fileID: 11400000, guid: f23b7c5750fba1947baca8243f5d5a4d, type: 2}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Pick a bottom card
+    description: Earn <color=#00C300>Wheel of Fortune</color>
+    requirement: Requires an available item slot
+    conclusion: '"I bet you weren''t expecting a tarot reading!"
+
+
+      The man
+      proceeds to tell you that you''ll experience a great change in the near future.
+      You hope that it is a change for the better.'
+    isHidden: 0
+    item: {fileID: 11400000, guid: db66db4e868af244fafbafa4d7d0cc2d, type: 2}
+    consumable: {fileID: 0}
+    tag: 
+  - title: Walk away
+    description: <color=purple>+1</color> arrogance
+    requirement: 
+    conclusion: 'You don''t have time for such shenanigans and decide to proceed
+      to the bar.
+
+
+      Based on the magician''s reaction, you don''t think this
+      is the first time this has happened to him this evening.'
+    isHidden: 0
+    item: {fileID: 0}
+    consumable: {fileID: 0}
+    tag: Arrogance
+  minRound: 0

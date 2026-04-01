@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: A Chorus
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 4
+  title: A Chorus
+  author: Elizabeth Jennings
+  isFemaleAuthor: 1
+  stanzas:
+  - lines:
+    - Over the surging tides and the mountain kingdoms,
+    - Over the pastoral valleys and the meadows,
+    - Over the cities with their factory darkness,
+    - Over the lands where peace is still a power,
+    - Over all these and all this planet carries
+    - A power broods, invisible monarch, a stranger
+    - To some, but by many trusted. Man's a believer
+    - Until corrupted. This huge trusted power
+    - Is spirit. He moves in the muscle of the world,
+    - In continual creation. He burns the tides, he shines
+    - From the matchless skies. He is the day's surrender.
+    - Recognize him in the eye of the angry tiger,
+    - In the sign of a child stepping at last into sleep,
+    - In whatever touches, graces and confesses,
+    - In hopes fulfilled or forgotten, in promises
+  - lines:
+    - Kept, in the resignation of old men,
+    - This spirit, this power, this holder together of space
+    - Is about, is aware, is working in your breathing.
+    - But most he is the need that shows in hunger
+    - And in the tears shed in the lonely fastness.
+    - And in sorrow after anger.
+  rating: 3

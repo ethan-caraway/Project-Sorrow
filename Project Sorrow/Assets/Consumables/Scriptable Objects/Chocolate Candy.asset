@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4409a22e098ff459cb165cfe169b92, type: 3}
+  m_Name: Chocolate Candy
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Consumables.ConsumableScriptableObject
+  id: 52
+  title: Chocolate Candy
+  description: Become <color=#00FFFF>Excited</color> <color=#828282>(x2)</color>
+  tag: Excited
+  icon: {fileID: 0}
+  smallIcon: {fileID: 0}
+  rarity: 0
+  type: 3

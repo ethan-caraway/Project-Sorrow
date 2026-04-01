@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Cat Metamorphosed Into A Woman
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 30
+  title: The Cat Metamorphosed Into A Woman
+  author: Jean de La Fontaine
+  stanzas:
+  - lines:
+    - A bachelor caress'd his cat,
+    - A darling, fair, and delicate;
+    - So deep in love, he thought her mew
+    - The sweetest voice he ever knew.
+    - By prayers, and tears, and magic art,
+    - The man got Fate to take his part;
+    - And, lo! one morning at his side
+    - His cat, transform'd, became his bride.
+    - In wedded state our man was seen
+    - The fool in courtship he had been.
+    - No lover e'er was so bewitch'd
+    - By any maiden's charms
+    - As was this husband, so enrich'd
+    - By hers within his arms.
+    - He praised her beauties, this and that,
+    - And saw there nothing of the cat.
+    - In short, by passion's aid, he
+    - Thought her a perfect lady.
+  - lines:
+    - '''Twas night: some carpet-gnawing mice'
+    - Disturb'd the nuptial joys.
+    - Excited by the noise,
+    - The bride sprang at them in a trice;
+    - The mice were scared and fled.
+    - The bride, scarce in her bed,
+    - The gnawing heard, and sprang again, -
+    - And this time not in vain,
+    - For, in this novel form array'd,
+    - Of her the mice were less afraid.
+    - Through life she loved this mousing course,
+    - So great is stubborn nature's force.
+  - lines:
+    - In mockery of change, the old
+    - Will keep their youthful bent.
+    - When once the cloth has got its fold,
+    - The smelling-pot its scent,
+    - In vain your efforts and your care
+    - To make them other than they are.
+    - To work reform, do what you will,
+    - Old habit will be habit still.
+    - Nor fork nor strap can mend its manners,
+    - Nor cudgel-blows beat down its banners.
+    - Secure the doors against the renter,
+    - And through the windows it will enter.
+  rating: 5

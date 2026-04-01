@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: Sonnet IV
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 76
+  title: Sonnet IV
+  author: Alan Seeger
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - Up at his attic sill the South wind came
+    - And days of sun and storm but never peace.
+    - Along the town's tumultuous arteries
+    - 'He heard the heart-throbs of a sentient frame:'
+    - Each night the whistles in the bay, the same
+    - 'Whirl of incessant wheels and clanging cars:'
+    - For smoke that half obscured, the circling stars
+    - Burnt like his youth with but a sickly flame.
+    - Up to his attic came the city cries -
+    - The throes with which her iron sinews heave -
+    - And yet forever behind prison doors
+    - Welled in his heart and trembled in his eyes
+    - The light that hangs on desert hills at eve
+    - And tints the sea on solitary shores. . . .
+  rating: 1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b492ab769d202ee4183275be4bff9429, type: 3}
+  m_Name: The Gold Fields
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Poems.PoemScriptableObject
+  id: 79
+  title: The Gold Fields
+  author: Charles Hamilton Musgrove
+  isFemaleAuthor: 0
+  stanzas:
+  - lines:
+    - 'Here is a tale the North Wind sang to me:'
+    - '    Hell hath set Mammon o''er a frozen land,'
+    - '    Crowned him with gold, put gold into his hand,'
+    - And men forsake their God to bow the knee
+    - Again unto this world-old deity
+    - '    Whose rule is wheresoe''er man''s feet go forth,'
+    - '    Whether they track the grim and icy North,'
+    - Or Afric's scorching sweeps of sandy sea.
+    - About his throne they crawl and curse and weep;
+    - '    The tenfold pangs of darkness and of cold'
+    - Bite at their hearts, and hound them as they creep,
+    - '    Thief-like, to catch his scattered crumbs of gold; -'
+    - 'And over all still burns God''s warning scroll:'
+    - '"What profit it if ye shall lose your soul?"'
+  rating: 1

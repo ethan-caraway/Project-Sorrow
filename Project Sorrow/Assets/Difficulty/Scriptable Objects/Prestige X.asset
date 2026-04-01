@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0195f2e9e59c51a4683aeb62d56b4e72, type: 3}
+  m_Name: Prestige X
+  m_EditorClassIdentifier: Assembly-CSharp::FlightPaper.ProjectSorrow.Difficulty.DifficultyScriptableObject
+  id: 10
+  title: Prestige X
+  description: Goals and ratings increase even faster
+  penalties:
+  - <color=red>-01:00.00</color>
+  - Decreased commission
+  - <color=red>-30</color> snaps per flub
+  - Snaps goals increase even faster
+  - Poem ratings increase even faster
+  - <color=red>-2</color> confidence
+  - <color=red>-1</color> consumable slots
+  unlockCriteria: Win a run of Prestige IX
+  rounds:
+  - rating: 1
+    startingSnaps: 250
+    snapsIncrement: 50
+  - rating: 2
+    startingSnaps: 850
+    snapsIncrement: 250
+  - rating: 3
+    startingSnaps: 3250
+    snapsIncrement: 750
+  - rating: 4
+    startingSnaps: 9000
+    snapsIncrement: 2000
+  - rating: 5
+    startingSnaps: 25000
+    snapsIncrement: 5000
+  commission: 01000000020000000300000005000000
+  maxConfidence: 8
+  timeAllowanceMinutes: 3
+  maxItems: 6
+  maxConsumables: 2
+  flubPenalty: -50

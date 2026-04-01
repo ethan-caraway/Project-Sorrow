@@ -1,0 +1,762 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32699 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan" at "2026-03-30T20:07:30.9148034Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-03-30T20:07:30Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52298
+-licensingIpc
+LicenseClient-ethan
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow
+C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33748]  Target information:
+
+Player connection [33748]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 715396710 [EditorId] 715396710 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LMD41HU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33748] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33748] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19388, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              ed0f0694c3aa4d9889f02062f0e0e578
+  Correlation Id:          f50bf4e8bb474a228c9191f60d06ce31
+  External correlation Id: 3082766109557547526
+  Machine Id:              K5oX8iBmUGjpqkw3ua0Z8+1m5VM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ethan" (connect: 0.00s, validation: 0.00s, handshake: 0.15s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan-notifications" at "2026-03-30T20:07:31.0722128Z"
+[Licensing::Module] Licensing Background thread has ended after 0.16s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 127.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethan/Desktop/Flight Paper Studio/Game Projects/Project Sorrow/Project Sorrow/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega (ID=0x687f)
+    Vendor:   ATI
+    VRAM:     8119 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004581 seconds.
+- Loaded All Assemblies, in 12.879 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 13500ms
+	BeginReloadAssembly (10791ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (661ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1339ms)
+		LoadAssemblies (10794ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1328ms)
+			TypeCache.Refresh (1326ms)
+				TypeCache.ScanAssembly (956ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (224ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-PEUD-QFPU-WNU4-VCQ2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374556456971-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 14.701 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.120 seconds
+Domain Reload Profiling: 16811ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (14317ms)
+		LoadAssemblies (13486ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (965ms)
+			TypeCache.Refresh (862ms)
+				TypeCache.ScanAssembly (840ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2120ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (893ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7551 unused Assets / (5.2 MB). Loaded Objects now: 8307.
+Memory consumption went from 149.0 MB to 143.8 MB.
+Total: 12.994100 ms (FindLiveObjects: 1.245800 ms CreateObjectMapping: 1.140900 ms MarkObjects: 6.659100 ms  DeleteObjects: 3.946100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 959891.139071 seconds.
+  path: Assets/Consumables/Scripts/Consumables/DrinkFlight.cs
+  artifactKey: Guid(e18258657d81d684fa85388c366f1eca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/DrinkFlight.cs using Guid(e18258657d81d684fa85388c366f1eca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45462b52bc63c0ae7e0f3d3c00a6386a') in 0.2471239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Consumables/Scripts/Consumables/HardLemonade.cs
+  artifactKey: Guid(023dd2c3194e03545893a66a03d0bb1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/HardLemonade.cs using Guid(023dd2c3194e03545893a66a03d0bb1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6aaf2b58f84f915b70b2886f586a303') in 0.012955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Consumables/Scripts/Consumables/Cheeseburger.cs
+  artifactKey: Guid(262689480698d844bb862f8e28d843ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/Cheeseburger.cs using Guid(262689480698d844bb862f8e28d843ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71180061377913a38f88bef73a26f20d') in 0.013726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Consumables/Scriptable Objects/Fish Tacos.asset
+  artifactKey: Guid(a310fb11748e51f42a1fc9c6c3d10b59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Fish Tacos.asset using Guid(a310fb11748e51f42a1fc9c6c3d10b59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ad37a69dd511f951547ae6d99d0591b') in 0.0522766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/MineralWater.cs
+  artifactKey: Guid(a4564c5de8861584989e0ff236fce6d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/MineralWater.cs using Guid(a4564c5de8861584989e0ff236fce6d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f710bea6ea9ad41d26bc2647d914a762') in 0.0129449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Consumables/Scripts/Consumables/CraftBeer.cs
+  artifactKey: Guid(7943b20e918fb0545984d7965e2aa9d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/CraftBeer.cs using Guid(7943b20e918fb0545984d7965e2aa9d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b02bfd2b3537af9395a43d59264535b') in 0.0127073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Consumables/Scriptable Objects/Decaf Coffee.asset
+  artifactKey: Guid(9391ee9e5364dcc49902420719a40fb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Decaf Coffee.asset using Guid(9391ee9e5364dcc49902420719a40fb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78fe1d61df588c49ee155cbe287eb76b') in 0.0271014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scriptable Objects/Non-Alcoholic Beer.asset
+  artifactKey: Guid(d339aeb622e9d304c83aea4fe0c50b99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Non-Alcoholic Beer.asset using Guid(d339aeb622e9d304c83aea4fe0c50b99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '383608f17024d5b38ba5f794f15c271f') in 0.0236168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Poems/Scripts/PoemModel.cs
+  artifactKey: Guid(bd912b21745521d4caeb5e9a2486e760) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Poems/Scripts/PoemModel.cs using Guid(bd912b21745521d4caeb5e9a2486e760) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f05ab3108aea77bc626adfd34d9e26f') in 0.0132598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Consumables/Scriptable Objects/Milk Coffee.asset
+  artifactKey: Guid(2c7104762558fc94b844fb7b1f6e2e94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Milk Coffee.asset using Guid(2c7104762558fc94b844fb7b1f6e2e94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1eb97e4e5fd6caefbfa9a7dac30be43') in 0.0231166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Consumables/Scripts/Consumables/WhiteRice.cs
+  artifactKey: Guid(855f3ea80ce8cfa439cc1355bf60f26b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/WhiteRice.cs using Guid(855f3ea80ce8cfa439cc1355bf60f26b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29d22b83eaab61d122bd67c2b2a6fbe6') in 0.0121954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scripts/Consumables/AppleJuice.cs
+  artifactKey: Guid(a1a93880ecdf0004daa750eadff99096) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/AppleJuice.cs using Guid(a1a93880ecdf0004daa750eadff99096) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '359bc9e550c391fe0212cf070a4e6fde') in 0.0147549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scriptable Objects/Breakfast Tacos.asset
+  artifactKey: Guid(22e087ddf93b6a444a5902fdba1c0bcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Breakfast Tacos.asset using Guid(22e087ddf93b6a444a5902fdba1c0bcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9962d212e3ad62306965096ca3057899') in 0.0253875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Consumables/Scripts/Consumables/CobbSalad.cs
+  artifactKey: Guid(3b13a3842e25e094e860e8eff8761bf5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/CobbSalad.cs using Guid(3b13a3842e25e094e860e8eff8761bf5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36582ad78271f827fbf332f734efd563') in 0.0141557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Consumables/Scripts/Consumables/RibeyeSteak.cs
+  artifactKey: Guid(605ea93d0457b054b87f1d4731f8660c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/RibeyeSteak.cs using Guid(605ea93d0457b054b87f1d4731f8660c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af004419a1105f9e81ad8cca1fffbfbe') in 0.0141083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scripts/Consumables/BlackTea.cs
+  artifactKey: Guid(8ffd3cac0b6fb6b449a746b09bcd1e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/BlackTea.cs using Guid(8ffd3cac0b6fb6b449a746b09bcd1e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '009a84e98b7151d26951b9e157b4f562') in 0.0138498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Consumables/Scripts/Consumables/LowFatMilk.cs
+  artifactKey: Guid(2bf2e477227f4d448a023cd51b3aa990) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/LowFatMilk.cs using Guid(2bf2e477227f4d448a023cd51b3aa990) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd58df1e9b798f3386cc06d697ae12d04') in 0.0163682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scripts/Consumables/BreakfastTacos.cs
+  artifactKey: Guid(a7673eb3036439e428133c77cc312fce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/BreakfastTacos.cs using Guid(a7673eb3036439e428133c77cc312fce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '080171032e99797478e5866bd68f8f4e') in 0.0151913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Consumables/Scripts/Consumables/MilkCoffee.cs
+  artifactKey: Guid(3f5993bc8efe34e4787edc72ba88173b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/MilkCoffee.cs using Guid(3f5993bc8efe34e4787edc72ba88173b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '460f2fcbd55e6ec1bbbe8bac1a3c5a99') in 0.0138085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Consumables/Scriptable Objects/Green Tea.asset
+  artifactKey: Guid(9e6c080c5695e444ea1727ad6689b985) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Green Tea.asset using Guid(9e6c080c5695e444ea1727ad6689b985) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f1d7cb9b09596e059b5031b6a127045') in 0.0250645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Consumables/Scripts/Consumables/VodkaMartini.cs
+  artifactKey: Guid(6b7ad81e68f891a4baf191125ed8af5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/VodkaMartini.cs using Guid(6b7ad81e68f891a4baf191125ed8af5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe19c4c8d5cfef0cf2459b4b0247874f') in 0.0141476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scriptable Objects/Sparkling Water.asset
+  artifactKey: Guid(6eb7eb7ef632e474aa8773db0b807592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Sparkling Water.asset using Guid(6eb7eb7ef632e474aa8773db0b807592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b00220984db184978dd09d2c1243e21') in 0.0246278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scriptable Objects/Predatory Loan.asset
+  artifactKey: Guid(2e1e9d9bb3b71dc48b74dc40b2b8cc20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Predatory Loan.asset using Guid(2e1e9d9bb3b71dc48b74dc40b2b8cc20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3333931c4e8543588f23815c1bd8f30a') in 0.0292902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Consumables/Scripts/Consumables/SparklingWater.cs
+  artifactKey: Guid(66a9c5544076a7d4fa4a78fc6877c6e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/SparklingWater.cs using Guid(66a9c5544076a7d4fa4a78fc6877c6e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fb967c891522be77d53719f294862c6') in 0.0157063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/FishTacos.cs
+  artifactKey: Guid(a1c09bd4b8e3050458475b3015bc3357) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/FishTacos.cs using Guid(a1c09bd4b8e3050458475b3015bc3357) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02881d62425e073dbb87baca7e706e19') in 0.0137365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Poems/Prefabs/Preview.prefab
+  artifactKey: Guid(77df733b193008947850566423de9ee8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Poems/Prefabs/Preview.prefab using Guid(77df733b193008947850566423de9ee8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7983f81dee3025537eab3d70b2fbcd4') in 0.1300117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Consumables/Scriptable Objects/BBQ Chips.asset
+  artifactKey: Guid(019a4e6f56af75c4da8601049beda398) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/BBQ Chips.asset using Guid(019a4e6f56af75c4da8601049beda398) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61f2da0c8176ceba3b39072f062fd80a') in 0.0254661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Consumables/Scripts/Consumables/TenderloinSteak.cs
+  artifactKey: Guid(024fa196e1ec2cf4da47b3aee888e7e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/TenderloinSteak.cs using Guid(024fa196e1ec2cf4da47b3aee888e7e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c8c542234bc72db32cba6fb13461228') in 0.0136923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/PersonalLoan.cs
+  artifactKey: Guid(947063a7d903157419daf6583c68153c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/PersonalLoan.cs using Guid(947063a7d903157419daf6583c68153c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eecf294a78492ffad25ca2953684446') in 0.0152709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scriptable Objects/Caesar Salad.asset
+  artifactKey: Guid(7848cdf6e9fd5a046b0af63634e44e40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Caesar Salad.asset using Guid(7848cdf6e9fd5a046b0af63634e44e40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4353325ef952c66f1bdc2b44dc275fc3') in 0.0240196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Consumables/Scripts/Consumables/PinkLemonade.cs
+  artifactKey: Guid(32e7f604bb16ee345ace36800fb3f337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/PinkLemonade.cs using Guid(32e7f604bb16ee345ace36800fb3f337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbb17c77bb532dcbe7fb5de74cb24195') in 0.0134657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Consumables/Scripts/Consumables/GreenTea.cs
+  artifactKey: Guid(ff8cc05b992c1244092edcf2fedb8e64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/GreenTea.cs using Guid(ff8cc05b992c1244092edcf2fedb8e64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c524c48d3dafe4c3d5efb8862c7a25b') in 0.0139557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Consumables/Scriptable Objects/Mineral Water.asset
+  artifactKey: Guid(631da9d8e94885741979b825e9da50ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Mineral Water.asset using Guid(631da9d8e94885741979b825e9da50ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abed71a00abc4da82e9c0eba1cdc3dd6') in 0.0238703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Consumables/Scripts/Consumables/KettleChips.cs
+  artifactKey: Guid(65cfbb5b780dd7a4583ef1959d449661) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/KettleChips.cs using Guid(65cfbb5b780dd7a4583ef1959d449661) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04fe10dca664a8344e0e0e270d2d6251') in 0.0146601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Consumables/Scripts/Consumables/BarbacoaTacos.cs
+  artifactKey: Guid(a5f1dbdbf178dd54ea163dedf95045f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/BarbacoaTacos.cs using Guid(a5f1dbdbf178dd54ea163dedf95045f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf61ed366935b911453ce6b8c4250dd2') in 0.0133947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Consumables/Scriptable Objects/White Wine.asset
+  artifactKey: Guid(06a98b4e42cdee644b51d4f3846a0d76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/White Wine.asset using Guid(06a98b4e42cdee644b51d4f3846a0d76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9dcca87d1a69230c19f950fae318601') in 0.0235794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scriptable Objects/Single Malt Whiskey.asset
+  artifactKey: Guid(92badba786f93b84991dee11b7dd62a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Single Malt Whiskey.asset using Guid(92badba786f93b84991dee11b7dd62a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd50d36d083e906a4ebfe70a976d16cca') in 0.0249617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/SmashBurger.cs
+  artifactKey: Guid(715d274de407af242bf525ac5cb9ff52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/SmashBurger.cs using Guid(715d274de407af242bf525ac5cb9ff52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '381ac1bf10e45506bd5cbbe786962bf2') in 0.0136249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Consumables/Scriptable Objects/Bank Loan.asset
+  artifactKey: Guid(99da85319860e7c4a99633d833877d72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Bank Loan.asset using Guid(99da85319860e7c4a99633d833877d72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6970b7b6a861a42f965ff28c18f3913d') in 0.0241465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Consumables/Scriptable Objects/Garden Salad.asset
+  artifactKey: Guid(6556843ebe7bd5c47b296b3f77b250aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Garden Salad.asset using Guid(6556843ebe7bd5c47b296b3f77b250aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69932f759bb78a816400f74a6df520ab') in 0.0241356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/BrownRice.cs
+  artifactKey: Guid(651f74687f3955b4f9373d67f1e49b50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/BrownRice.cs using Guid(651f74687f3955b4f9373d67f1e49b50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '183e85f0515b4a666a07a61c3ddb645b') in 0.0135585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/BBQChips.cs
+  artifactKey: Guid(e26467dc3d06b9c46a387bb5ce525a3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/BBQChips.cs using Guid(e26467dc3d06b9c46a387bb5ce525a3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3508089b135c63de4fb0e1058bd67efc') in 0.0140278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scripts/Consumables/CaesarSalad.cs
+  artifactKey: Guid(5df1e104db7fe554f93680ad588ba04d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/CaesarSalad.cs using Guid(5df1e104db7fe554f93680ad588ba04d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72619e90017f9a3f666ababb53473ceb') in 0.0137779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Consumables/Scripts/Consumables/SparklingWine.cs
+  artifactKey: Guid(f1663f19da1bad040af5cd313a465758) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/SparklingWine.cs using Guid(f1663f19da1bad040af5cd313a465758) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed814f87ff4fa98d27a85950370827ee') in 0.013564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Consumables/Scriptable Objects/Craft Soda.asset
+  artifactKey: Guid(c59e44bcef4d88d4790cc11fef466b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Craft Soda.asset using Guid(c59e44bcef4d88d4790cc11fef466b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0724cd01a42925b52238be4a21079e4e') in 0.0233841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scripts/Consumables/SourCandy.cs
+  artifactKey: Guid(c157d317113464a4d95960dbee0aec4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/SourCandy.cs using Guid(c157d317113464a4d95960dbee0aec4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4428a15f36a7190e582db60725f3147') in 0.0152438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scriptable Objects/Diet Soda.asset
+  artifactKey: Guid(4b3f4b7d5df7d6d4ea16cb67c849dd8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Diet Soda.asset using Guid(4b3f4b7d5df7d6d4ea16cb67c849dd8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a01814b6e080dc82fefda6184b3c63bc') in 0.0208015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Consumables/Scriptable Objects/Craft Beer.asset
+  artifactKey: Guid(fcb7e2846a3f43e47b8c04963d680995) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Craft Beer.asset using Guid(fcb7e2846a3f43e47b8c04963d680995) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a321e4b93c8ea77b6e589659d657672') in 0.023081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scripts/Consumables/SirloinSteak.cs
+  artifactKey: Guid(b7ea24b31f355444c91c6db9573277e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/SirloinSteak.cs using Guid(b7ea24b31f355444c91c6db9573277e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27fde751fa8916b90e573840f4d57bb2') in 0.0122213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Consumables/Scriptable Objects/Apple Juice.asset
+  artifactKey: Guid(98dff78c7a1eaa9449fda79fa36727cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Apple Juice.asset using Guid(98dff78c7a1eaa9449fda79fa36727cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b38b5b68a663a2ba5492a3a805f45fb9') in 0.0227023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Consumables/Scripts/Consumables/GardenSalad.cs
+  artifactKey: Guid(efd1039b1fb690940bc2a2997d807138) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/GardenSalad.cs using Guid(efd1039b1fb690940bc2a2997d807138) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0956dd9e19659859ce14ffd3c33cc34') in 0.0131921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Consumables/Scriptable Objects/Red Wine.asset
+  artifactKey: Guid(7e1f5413a330e644390fce9bb78540aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scriptable Objects/Red Wine.asset using Guid(7e1f5413a330e644390fce9bb78540aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ea84101b408828eed34a23d6046842e') in 0.0259279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Consumables/Scripts/Consumables/OolongTea.cs
+  artifactKey: Guid(42f1172b9c032ed4dbd8e0e86a60b4b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/OolongTea.cs using Guid(42f1172b9c032ed4dbd8e0e86a60b4b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1260a4483bc5321645f737b01d593c19') in 0.0162719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Consumables/Scripts/Consumables/WholeMilk.cs
+  artifactKey: Guid(d64f71bf7fd5b4e43a05ccb34886a641) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/WholeMilk.cs using Guid(d64f71bf7fd5b4e43a05ccb34886a641) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc2498be0fbe4abe3e6e48b1b984e601') in 0.0139449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Items/Scripts/Items/Textbook.cs
+  artifactKey: Guid(5d0fddc9fe052e840a9c8dd6f1bbf394) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Items/Scripts/Items/Textbook.cs using Guid(5d0fddc9fe052e840a9c8dd6f1bbf394) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '613d4138fa4a680f771cae0a3b92911e') in 0.0145705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Consumables/Scripts/Consumables/DietSoda.cs
+  artifactKey: Guid(db49568fc7223ec478bcf19667f5dd1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/DietSoda.cs using Guid(db49568fc7223ec478bcf19667f5dd1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8257487b007949a35c1d54c17264cd4') in 0.0143682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Consumables/Scripts/Consumables/NABeer.cs
+  artifactKey: Guid(3f40afb88b29c134489efdb32caeb8f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Consumables/Scripts/Consumables/NABeer.cs using Guid(3f40afb88b29c134489efdb32caeb8f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24c481c3299fe7dab0b857820c11fc30') in 0.0168301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7544 unused Assets / (4.1 MB). Loaded Objects now: 8310.
+Memory consumption went from 147.9 MB to 143.9 MB.
+Total: 15.293200 ms (FindLiveObjects: 1.306300 ms CreateObjectMapping: 2.079900 ms MarkObjects: 8.322500 ms  DeleteObjects: 3.582100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.834066 seconds.
+  path: Assets/Menus/Scripts/StatusEffectPortrait.cs
+  artifactKey: Guid(1b47319dbe39d774ba6a941ec314ca6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menus/Scripts/StatusEffectPortrait.cs using Guid(1b47319dbe39d774ba6a941ec314ca6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f54d78d0e55fa769345a055925e57a8') in 0.0010745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-PEUD-QFPU-WNU4-VCQ2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374556456971-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.214 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.085 seconds
+Domain Reload Profiling: 2294ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (786ms)
+		LoadAssemblies (595ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1086ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7550 unused Assets / (5.4 MB). Loaded Objects now: 8329.
+Memory consumption went from 154.5 MB to 149.1 MB.
+Total: 11.021000 ms (FindLiveObjects: 1.034600 ms CreateObjectMapping: 0.663400 ms MarkObjects: 6.193700 ms  DeleteObjects: 3.127900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
