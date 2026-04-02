@@ -36,11 +36,21 @@ namespace FlightPaper.ProjectSorrow.Items
 
 		public override ItemTriggerModel OnStanzaComplete ( Performance.PerformanceModel model )
 		{
+			// Get snaps
+			int snaps = GameManager.Run.GetItemIntScaleValue ( ID, InstanceID );
+
+			// Trigger item
 			return new ItemTriggerModel
 			{
 				ID = ID,
 				InstanceID = InstanceID,
-				Snaps = GameManager.Run.GetItemIntScaleValue ( ID, InstanceID )
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+					SplashText = $"+{snaps}"
+				},
+				Snaps = snaps
 			};
 		}
 

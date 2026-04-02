@@ -182,6 +182,18 @@ namespace FlightPaper.ProjectSorrow.Performance
 		}
 
 		/// <summary>
+		/// Highlights an item in use.
+		/// </summary>
+		/// <param name="id"> The ID of the item. </param>
+		/// <param name="instance"> The ID of the instance of the item. </param>
+		/// <param name="model"> The data for the highlight. </param>
+		public void HighlightItem ( int id, string instance, HUD.ItemHighlightModel model )
+		{
+			// Highlight an item in use
+			itemsHUD.HighlightItem ( id, instance, model );
+		}
+
+		/// <summary>
 		/// Highlights an consumable in use.
 		/// </summary>
 		/// <param name="id"> The ID of the consumable. </param>

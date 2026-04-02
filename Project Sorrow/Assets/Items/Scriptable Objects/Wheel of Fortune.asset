@@ -17,7 +17,8 @@ MonoBehaviour:
   description: <color=green>+$4</color> commission per 10 lines performed
   tag: 
   icon: {fileID: 0}
+  smallIcon: {fileID: 0}
   rarity: 1
-  scaleType: 4
+  scaleType: 0
   isVariableDescription: 0
   isUtility: 1

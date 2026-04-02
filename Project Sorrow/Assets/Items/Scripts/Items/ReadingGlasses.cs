@@ -33,8 +33,18 @@ namespace FlightPaper.ProjectSorrow.Items
 			// Increment snaps
 			count++;
 
-			// Return no additional snaps
-			return base.OnStanzaComplete ( model );
+			// Highlight count
+			return new ItemTriggerModel
+			{
+				ID = ID,
+				InstanceID = InstanceID,
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.SERIOUS_GREY,
+					SplashText = count >= 4 ? $"<color=#A1740E>{count}</color>" : count.ToString ( )
+				}
+			};
 		}
 
 		public override Performance.ApplauseModel OnApplause ( Performance.PerformanceModel model, int total )

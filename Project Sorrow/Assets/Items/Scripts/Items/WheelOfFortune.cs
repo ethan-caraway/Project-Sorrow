@@ -33,6 +33,22 @@ namespace FlightPaper.ProjectSorrow.Items
 			// Increment count
 			lineCount++;
 
+			// Check for 10 line
+			if ( lineCount % 10 == 0 )
+			{
+				return new ItemTriggerModel
+				{
+					ID = ID,
+					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SERIOUS_GREY,
+						SplashText = $"<color=green>{lineCount}</color>"
+					}
+				};
+			}
+
 			// Return no additional snaps
 			return base.OnLineComplete ( total );
 		}

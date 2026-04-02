@@ -288,7 +288,7 @@ namespace FlightPaper.ProjectSorrow
 					return new Color32 ( 128, 0, 128, 255 );
 
 				case Enums.StatusEffectType.GREEDY:
-					return new Color32 ( 0, 225, 0, 255 );
+					return new Color32 ( 0, 255, 0, 255 );
 
 				case Enums.StatusEffectType.DRAMATIC:
 					return new Color32 ( 255, 225, 0, 255 );

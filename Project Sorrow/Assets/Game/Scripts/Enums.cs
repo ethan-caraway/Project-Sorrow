@@ -73,6 +73,26 @@ namespace FlightPaper.ProjectSorrow
 		}
 
 		/// <summary>
+		/// The types of color backgrounds for item trigger splashes.
+		/// </summary>
+		public enum SplashColorType
+		{
+			NONE,
+			SNAPS_GOLD,
+			CONFIDENCE_BLUE,
+			ARROGANCE_PURPLE,
+			TIME_YELLOW,
+			MONEY_GREEN,
+			PENALTY_RED,
+			EXCITED_CYAN,
+			SERIOUS_GREY,
+			COMMON,
+			UNCOMMON,
+			RARE,
+			LEGENDARY
+		}
+
+		/// <summary>
 		/// The Latinate series of ordinal number words (e.g. primary, secondary, tertiary, etc.).
 		/// </summary>
 		public enum LatinateOrdinalNumbers

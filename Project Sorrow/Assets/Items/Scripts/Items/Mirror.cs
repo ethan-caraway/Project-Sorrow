@@ -234,6 +234,32 @@ namespace FlightPaper.ProjectSorrow.Items
 			return base.OnStanzaComplete ( model );
 		}
 
+		public override bool IsStatusEffectPreventExpire ( )
+		{
+			// Check for leftmost item
+			if ( GameManager.Run.IsValidItem ( 0 ) && GameManager.Run.ItemData [ 0 ].ID != ID && GameManager.Run.ItemData [ 0 ].Item.IsEnabled )
+			{
+				// Retrigger item
+				return GameManager.Run.ItemData [ 0 ].Item.IsStatusEffectPreventExpire ( );
+			}
+
+			// Apply no affect
+			return base.IsStatusEffectPreventExpire ( );
+		}
+
+		public override bool OnStatusEffectExpire ( int total )
+		{
+			// Check for leftmost item
+			if ( GameManager.Run.IsValidItem ( 0 ) && GameManager.Run.ItemData [ 0 ].ID != ID && GameManager.Run.ItemData [ 0 ].Item.IsEnabled )
+			{
+				// Retrigger item
+				return GameManager.Run.ItemData [ 0 ].Item.OnStatusEffectExpire ( total );
+			}
+
+			// Apply no affect
+			return base.OnStatusEffectExpire ( total );
+		}
+
 		public override bool OnBoldTrigger ( )
 		{
 			// Check for leftmost item

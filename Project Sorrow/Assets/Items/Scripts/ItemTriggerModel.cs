@@ -18,9 +18,9 @@ namespace FlightPaper.ProjectSorrow.Items
 		public string InstanceID = string.Empty;
 
 		/// <summary>
-		/// Whether or not the effect of the item trigger is positive.
+		/// The data for highlighting the item in the HUD when the item is triggered.
 		/// </summary>
-		public bool IsPositive = true;
+		public HUD.ItemHighlightModel Highlight;
 
 		/// <summary>
 		/// The number of snaps earned from the item being triggered.
@@ -43,7 +43,7 @@ namespace FlightPaper.ProjectSorrow.Items
 		public bool IsValid ( )
 		{
 			// Check for item data
-			return ID != ItemModel.NO_ITEM_ID && !string.IsNullOrEmpty ( InstanceID );
+			return ID != ItemModel.NO_ITEM_ID && !string.IsNullOrEmpty ( InstanceID ) && Highlight.IsValid ( );
 		}
 
 		#endregion // Public Functions

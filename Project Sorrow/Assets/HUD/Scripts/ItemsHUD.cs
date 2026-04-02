@@ -235,6 +235,33 @@ namespace FlightPaper.ProjectSorrow.HUD
 		}
 
 		/// <summary>
+		/// Highlights an item being used.
+		/// </summary>
+		/// <param name="id"> The ID of the item. </param>
+		/// <param name="instance"> The ID of the instance of the item. </param>
+		/// <param name="model"> The data for the highlight. </param>
+		public void HighlightItem ( int id, string instance, ItemHighlightModel model )
+		{
+			// Check for valid ID
+			if ( id == Items.ItemModel.NO_ITEM_ID )
+			{
+				return;
+			}
+
+			// Check for item
+			for ( int i = 0; i < GameManager.Run.ItemData.Length; i++ )
+			{
+				// Check for matching item ID
+				if ( GameManager.Run.ItemData [ i ] != null && GameManager.Run.ItemData [ i ].ID == id && GameManager.Run.ItemData [ i ].InstanceID == instance )
+				{
+					// Highlight item
+					itemDisplays [ i ].HighlightItem ( model );
+					return;
+				}
+			}
+		}
+
+		/// <summary>
 		/// Begins dragging an item in the HUD.
 		/// </summary>
 		/// <param name="index"> The index of the item. </param>

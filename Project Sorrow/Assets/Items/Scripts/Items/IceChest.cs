@@ -52,14 +52,41 @@ namespace FlightPaper.ProjectSorrow.Items
 				{
 					// Add consumable
 					GameManager.Run.AddConsumable ( consumable.ID, 1 );
-				}
 
-				// Trigger item
-				return new ItemTriggerModel
-				{
-					ID = ID,
-					InstanceID = InstanceID
-				};
+					// Get rarity
+					Enums.SplashColorType color = Enums.SplashColorType.NONE;
+					switch ( consumable.Rarity )
+					{
+						case Enums.Rarity.COMMON:
+							color = Enums.SplashColorType.COMMON;
+							break;
+
+						case Enums.Rarity.UNCOMMON:
+							color = Enums.SplashColorType.UNCOMMON;
+							break;
+
+						case Enums.Rarity.RARE:
+							color = Enums.SplashColorType.RARE;
+							break;
+
+						case Enums.Rarity.LEGENDARY:
+							color = Enums.SplashColorType.LEGENDARY;
+							break;
+					}
+
+					// Trigger item
+					return new ItemTriggerModel
+					{
+						ID = ID,
+						InstanceID = InstanceID,
+						Highlight = new HUD.ItemHighlightModel
+						{
+							IsPositive = true,
+							SplashColor = color,
+							SplashText = consumable.Title
+						}
+					};
+				}
 			}
 
 			// Reset line tracking

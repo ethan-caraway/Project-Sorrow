@@ -34,7 +34,7 @@ namespace FlightPaper.ProjectSorrow.Items
 
 			// Decrement count
 			count--;
-
+			
 			// Check for trigger
 			if ( count == 0 )
 			{
@@ -46,6 +46,12 @@ namespace FlightPaper.ProjectSorrow.Items
 				{
 					ID = ID,
 					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+						SplashText = "<b>x6</b>"
+					},
 					Snaps = total * 5
 				};
 			}
@@ -54,8 +60,18 @@ namespace FlightPaper.ProjectSorrow.Items
 				// Store decremented count
 				GameManager.Run.AddItemIntScaleValue ( ID, InstanceID, -1 );
 
-				// Return that the item was not triggered
-				return base.OnLineComplete ( total );
+				// Highlight the count
+				return new ItemTriggerModel
+				{
+					ID = ID,
+					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SERIOUS_GREY,
+						SplashText = count.ToString ( )
+					}
+				};
 			}
 		}
 

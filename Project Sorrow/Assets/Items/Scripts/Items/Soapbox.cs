@@ -48,6 +48,12 @@ namespace FlightPaper.ProjectSorrow.Items
 				{
 					ID = ID,
 					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SERIOUS_GREY,
+						SplashText = "Serious"
+					},
 					StatusEffect = new StatusEffects.StatusEffectModel
 					{
 						Type = Enums.StatusEffectType.SERIOUS,

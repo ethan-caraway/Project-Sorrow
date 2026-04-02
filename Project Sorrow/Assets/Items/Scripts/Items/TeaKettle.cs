@@ -35,6 +35,19 @@ namespace FlightPaper.ProjectSorrow.Items
 			{
 				// Increment scale value
 				GameManager.Run.AddItemIntScaleValue ( ID, InstanceID, 3 );
+
+				// Highlight item
+				return new ItemTriggerModel
+				{
+					ID = ID,
+					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+						SplashText = "Upgrade"
+					}
+				};
 			}
 
 			// Return no additional snaps

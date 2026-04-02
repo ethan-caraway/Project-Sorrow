@@ -283,7 +283,7 @@ namespace FlightPaper.ProjectSorrow.HUD
 			}
 
 			// Shake icon
-			iconShakeTween = iconImage.transform.DOShakeRotation ( HIGHLIGHT_DURATION, Vector3.forward * 50 ).SetEase ( Ease.InExpo );
+			iconShakeTween = iconImage.transform.DOPunchRotation ( Vector3.forward * 10, HIGHLIGHT_DURATION ).SetEase ( Ease.InExpo );
 		}
 
 		/// <summary>

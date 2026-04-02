@@ -18,12 +18,21 @@ namespace FlightPaper.ProjectSorrow.Items
 
 		public override ItemTriggerModel OnLineComplete ( int total )
 		{
+			// Get snaps
+			int snaps = GetSnapsFromDebt ( GameManager.Run.Debt );
+
 			// Return snaps
 			return new ItemTriggerModel
 			{
 				ID = ID,
 				InstanceID = InstanceID,
-				Snaps = GetSnapsFromDebt ( GameManager.Run.Debt )
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+					SplashText = $"+{snaps}"
+				},
+				Snaps = snaps
 			};
 		}
 

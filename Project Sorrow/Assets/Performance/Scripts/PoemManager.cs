@@ -1712,7 +1712,7 @@ namespace FlightPaper.ProjectSorrow.Performance
 				if ( isHighlighted )
 				{
 					// Highlight the item being triggered
-					performanceManager.HighlightItem ( model.ID, model.InstanceID, model.IsPositive );
+					performanceManager.HighlightItem ( model.ID, model.InstanceID, model.Highlight );
 				}
 
 				// Check for status effects

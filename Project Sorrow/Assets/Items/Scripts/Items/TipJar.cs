@@ -35,6 +35,19 @@ namespace FlightPaper.ProjectSorrow.Items
 			{
 				// Increment count
 				modifiedWords++;
+
+				// Highlight count
+				return new ItemTriggerModel
+				{
+					ID = ID,
+					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SERIOUS_GREY,
+						SplashText = $"<color=green>{modifiedWords}</color>"
+					}
+				};
 			}
 
 			// Return no additional snaps

@@ -23,6 +23,12 @@ namespace FlightPaper.ProjectSorrow.Items
 			{
 				ID = ID,
 				InstanceID = InstanceID,
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.ARROGANCE_PURPLE,
+					SplashText = "Stubborn"
+				},
 				StatusEffect = new StatusEffects.StatusEffectModel
 				{
 					Type = Enums.StatusEffectType.STUBBORN,

@@ -90,7 +90,12 @@ namespace FlightPaper.ProjectSorrow.Items
 					{
 						ID = ID,
 						InstanceID = InstanceID,
-						IsPositive = false
+						Highlight = new HUD.ItemHighlightModel
+						{
+							IsPositive = false,
+							SplashColor = Enums.SplashColorType.PENALTY_RED,
+							SplashText = "Downgrade"
+						}
 					};
 				}
 			}
@@ -101,11 +106,21 @@ namespace FlightPaper.ProjectSorrow.Items
 
 		public override ItemTriggerModel OnLineComplete ( int total )
 		{
+			// Get scale
+			float scale = GameManager.Run.GetItemFloatScaleValue ( ID, InstanceID );
+
+			// Trigger item
 			return new ItemTriggerModel
 			{
 				ID = ID,
 				InstanceID = InstanceID,
-				Snaps = (int)( total * ( GameManager.Run.GetItemFloatScaleValue ( ID, InstanceID ) - 1f ) )
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+					SplashText = $"<b>x{scale}</b>"
+				},
+				Snaps = (int)( total * ( scale - 1f ) )
 			};
 		}
 

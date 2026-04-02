@@ -74,6 +74,12 @@ namespace FlightPaper.ProjectSorrow.Items
 			{
 				ID = ID,
 				InstanceID = InstanceID,
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+					SplashText = $"<b>x{scale}</b>"
+				},
 				Snaps = (int)( total * ( scale - 1f ) )
 			};
 		}

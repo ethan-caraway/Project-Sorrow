@@ -1,5 +1,3 @@
-using FlightPaper.ProjectSorrow.Performance;
-
 namespace FlightPaper.ProjectSorrow.Items
 {
 	/// <summary>
@@ -24,7 +22,7 @@ namespace FlightPaper.ProjectSorrow.Items
 
 		#region Item Override Functions
 
-		public override void OnInitPerformance ( PerformanceModel model )
+		public override void OnInitPerformance ( Performance.PerformanceModel model )
 		{
 			// Reset count
 			modifierCount = 0;
@@ -36,19 +34,32 @@ namespace FlightPaper.ProjectSorrow.Items
 			if ( modifier != Enums.WordModifierType.NONE )
 			{
 				modifierCount++;
+
+				// Highlight count
+				return new ItemTriggerModel
+				{
+					ID = ID,
+					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SERIOUS_GREY,
+						SplashText = modifierCount >= 12 ? $"<color=#A1740E>{modifierCount}</color>" : $"{modifierCount}"
+					}
+				};
 			}
 
 			// Return no additional applause
 			return base.OnWordComplete ( total, length, modifier, model );
 		}
 
-		public override ApplauseModel OnApplause ( PerformanceModel model, int total )
+		public override Performance.ApplauseModel OnApplause ( Performance.PerformanceModel model, int total )
 		{
 			// Check the amount of modified words in the performance
 			if ( modifierCount >= 12 )
 			{
 				// Return the multiplied applause
-				return new ApplauseModel
+				return new Performance.ApplauseModel
 				{
 					ItemID = ID,
 					ItemInstanceID = InstanceID,

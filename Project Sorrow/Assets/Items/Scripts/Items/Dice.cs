@@ -20,12 +20,21 @@ namespace FlightPaper.ProjectSorrow.Items
 
 		public override ItemTriggerModel OnWordComplete ( int total, int length, Enums.WordModifierType modifier, Performance.PerformanceModel model )
 		{
+			// Get snaps
+			int snaps = Random.Range ( 1, 7 ) + Random.Range ( 1, 7 );
+
 			// Return 2-12 snaps
 			return new ItemTriggerModel
 			{
 				ID = ID,
 				InstanceID = InstanceID,
-				Snaps = Random.Range ( 1, 7 ) + Random.Range ( 1, 7 )
+				Highlight = new HUD.ItemHighlightModel
+				{
+					IsPositive = true,
+					SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+					SplashText = $"+{snaps}"
+				},
+				Snaps = snaps
 			};
 		}
 

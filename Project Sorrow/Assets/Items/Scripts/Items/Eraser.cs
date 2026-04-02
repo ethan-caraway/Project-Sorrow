@@ -40,7 +40,13 @@ namespace FlightPaper.ProjectSorrow.Items
 				return new ItemTriggerModel
 				{
 					ID = ID,
-					InstanceID = InstanceID
+					InstanceID = InstanceID,
+					Highlight = new HUD.ItemHighlightModel
+					{
+						IsPositive = true,
+						SplashColor = Enums.SplashColorType.SNAPS_GOLD,
+						SplashText = "Upgrade"
+					}
 				};
 			}
 

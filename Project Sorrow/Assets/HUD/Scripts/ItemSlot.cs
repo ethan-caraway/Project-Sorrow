@@ -11,6 +11,12 @@ namespace FlightPaper.ProjectSorrow.HUD
 	/// </summary>
 	public class ItemSlot : MonoBehaviour
 	{
+		#region Item Data Constants
+
+		private const float HIGHLIGHT_DURATION = 1f;
+
+		#endregion // Item Data Constants
+
 		#region UI Elements
 
 		[SerializeField]
@@ -18,6 +24,15 @@ namespace FlightPaper.ProjectSorrow.HUD
 
 		[SerializeField]
 		private GameObject itemButton;
+
+		[SerializeField]
+		private Transform splashContainer;
+
+		[SerializeField]
+		private Image splashBackground;
+
+		[SerializeField]
+		private TMP_Text splashText;
 
 		[SerializeField]
 		private GameObject sellButton;
@@ -33,19 +48,48 @@ namespace FlightPaper.ProjectSorrow.HUD
 		#region Item Data
 
 		[SerializeField]
-		private Color32 emptyContainerColor;
+		private Color32 goldSplashColor;
 
 		[SerializeField]
-		private Color32 positiveHighlightColor;
+		private Color32 blueSplashColor;
 
 		[SerializeField]
-		private Color32 negativeHighlightColor;
+		private Color32 purpleSplashColor;
+
+		[SerializeField]
+		private Color32 yellowSplashColor;
+
+		[SerializeField]
+		private Color32 greenSplashColor;
+
+		[SerializeField]
+		private Color32 redSplashColor;
+
+		[SerializeField]
+		private Color32 cyanSplashColor;
+
+		[SerializeField]
+		private Color32 greySplashColor;
+
+		[SerializeField]
+		private Color32 commonSplashColor;
+
+		[SerializeField]
+		private Color32 uncommonSplashColor;
+
+		[SerializeField]
+		private Color32 rareSplashColor;
+
+		[SerializeField]
+		private Color32 legendarySplashColor;
 
 		[SerializeField]
 		private bool canSell;
 
 		private bool isFocused;
 		private System.Action onStopFocusPrevention;
+
+		private Tween splashTween;
 
 		#endregion // Item Data
 
@@ -99,6 +143,9 @@ namespace FlightPaper.ProjectSorrow.HUD
 
 			// Set interaction of the button
 			itemDisplay.gameObject.SetActive ( item != null );
+
+			// Hide splash
+			splashContainer.gameObject.SetActive ( false );
 
 			// Set as not focused
 			isFocused = false;
@@ -185,6 +232,87 @@ namespace FlightPaper.ProjectSorrow.HUD
 		{
 			// Animate item
 			itemDisplay.HighlightItem ( isPositive );
+		}
+
+		/// <summary>
+		/// Highlights an item being used.
+		/// </summary>
+		/// <param name="model"> The data for the highlight. </param>
+		public void HighlightItem ( ItemHighlightModel model )
+		{
+			// Check for data
+			if ( model.IsValid ( ) )
+			{
+				// Animate item
+				itemDisplay.HighlightItem ( model.IsPositive );
+
+				// Set splash
+				splashContainer.gameObject.SetActive ( true );
+				switch ( model.SplashColor )
+				{
+					case Enums.SplashColorType.SNAPS_GOLD:
+						splashBackground.color = goldSplashColor;
+						break;
+
+					case Enums.SplashColorType.CONFIDENCE_BLUE:
+						splashBackground.color = blueSplashColor;
+						break;
+
+					case Enums.SplashColorType.ARROGANCE_PURPLE:
+						splashBackground.color = purpleSplashColor;
+						break;
+
+					case Enums.SplashColorType.TIME_YELLOW:
+						splashBackground.color = yellowSplashColor;
+						break;
+
+					case Enums.SplashColorType.MONEY_GREEN:
+						splashBackground.color = greenSplashColor;
+						break;
+
+					case Enums.SplashColorType.PENALTY_RED:
+						splashBackground.color = redSplashColor;
+						break;
+
+					case Enums.SplashColorType.EXCITED_CYAN:
+						splashBackground.color = cyanSplashColor;
+						break;
+
+					case Enums.SplashColorType.SERIOUS_GREY:
+						splashBackground.color = greySplashColor;
+						break;
+
+					case Enums.SplashColorType.COMMON:
+						splashBackground.color = commonSplashColor;
+						break;
+
+					case Enums.SplashColorType.UNCOMMON:
+						splashBackground.color = uncommonSplashColor;
+						break;
+
+					case Enums.SplashColorType.RARE:
+						splashBackground.color = rareSplashColor;
+						break;
+
+					case Enums.SplashColorType.LEGENDARY:
+						splashBackground.color = legendarySplashColor;
+						break;
+				}
+				splashText.text = model.SplashText;
+
+				// End previous splash animation if playing
+				if ( splashTween != null && !splashTween.IsComplete ( ) )
+				{
+					splashTween.Kill ( );
+				}
+
+				// Shake splash
+				splashTween = splashContainer.DOPunchRotation ( Vector3.forward * 10, HIGHLIGHT_DURATION ).SetEase ( Ease.InExpo ).OnComplete ( ( ) =>
+				{
+					// Hide splash
+					splashContainer.gameObject.SetActive ( false );
+				} );
+			}
 		}
 
 		/// <summary>

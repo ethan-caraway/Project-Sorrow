@@ -205,7 +205,8 @@ namespace FlightPaper.ProjectSorrow.Startup
 				{
 					if ( forceItems [ i ] != null )
 					{
-						GameManager.Run.AddItem ( forceItems [ i ].ID );
+						Items.ItemModel itemData =  GameManager.Run.AddItem ( forceItems [ i ].ID );
+						itemData.Item.OnAdd ( null );
 					}
 				}
 			}
